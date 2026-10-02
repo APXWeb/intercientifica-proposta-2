@@ -1,0 +1,359 @@
+{
+ "home_iframes": [
+  "https://www.youtube.com/embed/3fu_8y8yOsU?autoplay=1&mute=1&controls=1&loop=0&origin=https%3A%2F%2Fwww.intercientifica.com.br&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.intercientifica.com.br%2F&aoriginsup=1&vf=1",
+  "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/media/googleMap.f3347ff6.html?defaultLocation=0&showZoom=true&showStreetView=true&showMapType=true&language=pt&id=dataItem-kqbvjdn9&googleMapsScriptPath=%2Fservices%2Feditor-elements-library%2Fdist%2Fthunderbolt%2Fmedia%2Fgoogle-map.min.02d41b79.js&origin=https%3A%2F%2Fwww.intercientifica.com.br&hasFocus=true"
+ ],
+ "home_video_candidates": [
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"left\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_e159049c02864c55a1f38373bb0c238c\",\"videoWidth\":1920,\"videoHeight\":1080,\"qualities\":[{\"quality\":\"360p\",\"size\":230400,\"url\":\"video/92fb3b_e159049c02864c55a1f38373bb0c238c/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":409920,\"url\":\"video/92fb3b_e159049c02864c55a1f38373bb0c238c/480p/mp4/file.m",
+  "DIV  ",
+  "IFRAME https://www.youtube.com/embed/3fu_8y8yOsU?autoplay=1&mute=1&controls=1&loop=0&origin=https%3A%2F%2Fwww.intercientifica.com.br&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.intercientifica.com.br%2F&aoriginsup=1&vf=1 ",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_99eb321d16ed412282aac40df61da8f6\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_99eb321d16ed412282aac40df61da8f6/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_99eb321d16ed412282aac40df61da8f6/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_095e8e35317148d0aa8b170d0d35ea7f\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_095e8e35317148d0aa8b170d0d35ea7f/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_095e8e35317148d0aa8b170d0d35ea7f/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_f09b1d5c8be1492d83d028396bef9779\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_f09b1d5c8be1492d83d028396bef9779/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_f09b1d5c8be1492d83d028396bef9779/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_f2e31294e98c4b3e9e552767aaed2208\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_f2e31294e98c4b3e9e552767aaed2208/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_f2e31294e98c4b3e9e552767aaed2208/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_d93c4718ebcb4f34a360d15533101265\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_d93c4718ebcb4f34a360d15533101265/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_d93c4718ebcb4f34a360d15533101265/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_b24ce5126c5241a3bcbd08a9e0ad9b9f\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_b24ce5126c5241a3bcbd08a9e0ad9b9f/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_b24ce5126c5241a3bcbd08a9e0ad9b9f/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_f7f4e7c55a024cae853030c583ef4780\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_f7f4e7c55a024cae853030c583ef4780/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_f7f4e7c55a024cae853030c583ef4780/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_bb2b69d6397c4c35ad948cfb649e5999\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_bb2b69d6397c4c35ad948cfb649e5999/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_bb2b69d6397c4c35ad948cfb649e5999/480p/mp4/file.",
+  "DIV  ",
+  "WIX-VIDEO  {\"fittingType\":\"fill\",\"alignType\":\"center\",\"hasBgScrollEffect\":\"\",\"bgEffectName\":\"\",\"videoId\":\"92fb3b_62ad1439e05944189343c1ab52b97fae\",\"videoWidth\":1080,\"videoHeight\":882,\"qualities\":[{\"quality\":\"360p\",\"size\":159120,\"url\":\"video/92fb3b_62ad1439e05944189343c1ab52b97fae/360p/mp4/file.mp4\"},{\"quality\":\"480p\",\"size\":282240,\"url\":\"video/92fb3b_62ad1439e05944189343c1ab52b97fae/480p/mp4/file.",
+  "IFRAME https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/media/googleMap.f3347ff6.html?defaultLocation=0&showZoom=true&showStreetView=true&showMapType=true&language=pt&id=dataItem-kqbvjdn9&googleMapsScriptPath=%2Fservices%2Feditor-elements-library%2Fdist%2Fthunderbolt%2Fmedia%2Fgoogle-map.min.02d41b79.js&origin=https%3A%2F%2Fwww.intercientifica.com.br&hasFocus=true "
+ ],
+ "youtube_ids": [
+  "youtube.com/embed/3fu_8y8yOsU"
+ ],
+ "sliders": [
+  {
+   "root": "comp-lh882s82 cntGx6 rU95q5 ignore-focus wixui-slideshow",
+   "top": 549,
+   "slides": [
+    {
+     "text": "Teste do Pezinho será ampliado e detectará até 50 novas doenças Leia mais",
+     "links": [
+      "https://www.intercientifica.com.br/testedopezinhoser%C3%A1ampliadoedetectar%C3%A1at%C3%A950novasdoen%C3%A7as"
+     ],
+     "imgs": [
+      "https://static.wixstatic.com/media/11062b_486b0cfc66e844e5a3e5080290cf955f~mv2.jpg/v1/fill/w_622,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_486b0cfc66e844e5a3e5080290cf955f~mv2.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "root": "comp-llgrcj4k cntGx6 wU4HdD ignore-focus wixui-slideshow",
+   "top": 11677,
+   "slides": [
+    {
+     "text": "Nosso Compromisso O nosso compromisso está sustentado em três pilares: inovação, atendimento de excelência e a sustentabilidade. Investimos fortemente em pesquisas científicas e no aprimoramento dos nossos produtos e serviços para atender de forma personalizada principalmente o Mercado Nacional. Estamos comprometidos em desenvolver soluções inovadoras para avançar ainda mais na qualidade da triagem neonatal e pré-natal, com foco na redução de insumos e custos, para isso, os nossos laboratórios, no Brasil e nos USA, estão equipados com instrumentos de última geração e da mais alta tecnologia. Os nossos Kits NeoMAP®, sistema multiplex, analisam simultaneamente, em um único ensaio, vários analitos de uma mesma amostra, reduzindo em até 85% o consumo médio de reagentes e em 58% o consumo de energia elétrica, quando comparados a outras metodologias disponíveis no mercado, permitindo uma economia não somente de tempo e dinheiro, como redução da quantidade de amostras de paciente, materiais e recursos, reduzindo o impacto ambiental. Nós entendemos que a nossa saúde e a saúde do nosso planeta, ou seja, o meio ambiente, estão intrinsicamente ligados, por isso o nosso compromisso é servir o presente, sem comprometer o futuro.",
+     "links": [],
+     "imgs": [
+      "https://static.wixstatic.com/media/92fb3b_b5da1b99582c462f90813b310bb3d3af~mv2.jpg/v1/fill/w_1425,h_745,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_b5da1b99582c462f90813b310bb3d3af~mv2.jpg"
+     ]
+    }
+   ]
+  }
+ ],
+ "slider_clicks": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "home_all_links": [
+  "https://www.facebook.com/intercientifica.oficial",
+  "https://www.instagram.com/intercientifica/",
+  "https://www.intercientifica.com.br/",
+  "https://www.intercientifica.com.br/eventos",
+  "https://www.intercientifica.com.br/artigos",
+  "https://www.intercientifica.com.br/noticias",
+  "mailto:info@meusite.com",
+  "https://www.intercientifica.com.br/testedopezinhoser%C3%A1ampliadoedetectar%C3%A1at%C3%A950novasdoen%C3%A7as",
+  "https://www.intercientifica.com.br/#comp-lh882s9c",
+  "https://www.intercientifica.com.br/#comp-lh882s9y",
+  "https://www.intercientifica.com.br/#comp-lhzdmtuo",
+  "https://www.intercientifica.com.br/#comp-lh882sa12",
+  "https://www.intercientifica.com.br/#comp-llgrcj4o1",
+  "https://www.intercientifica.com.br/#comp-llgrcj4v4",
+  "https://www.intercientifica.com.br/#comp-llgrcj4z1",
+  "mailto:ic@intercientifica.com.br",
+  "mailto:b2c@intercientifica.com.br",
+  "mailto:a.cientifica@intercientifica.com.br"
+ ],
+ "home_all_imgs": [
+  "Ativo 2_2x.png | https://static.wixstatic.com/media/92fb3b_f61e17333b8e42568cb2360842cd525d~mv2.png/v1/fill/w_52,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ativo%202_2x.png",
+  "Facebook - Círculo Branco | https://static.wixstatic.com/media/e0678ef25486466ba65ef6ad47b559e1.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e0678ef25486466ba65ef6ad47b559e1.png",
+  "Instagram - White Circle | https://static.wixstatic.com/media/da7ef6dd1302486c9a67baebe4b364bc.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/da7ef6dd1302486c9a67baebe4b364bc.png",
+  " | https://static.wixstatic.com/media/92fb3b_e159049c02864c55a1f38373bb0c238cf000.jpg/v1/fill/w_855,h_900,al_l,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/92fb3b_e159049c02864c55a1f38373bb0c238cf000.jpg",
+  "Ativo 1_2x.png | https://static.wixstatic.com/media/92fb3b_7fac08e2992e485b9c82cd1d8755e109~mv2.png/v1/fill/w_237,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ativo%201_2x.png",
+  "Pais orgulhosos | https://static.wixstatic.com/media/11062b_486b0cfc66e844e5a3e5080290cf955f~mv2.jpg/v1/fill/w_92,h_69,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/11062b_486b0cfc66e844e5a3e5080290cf955f~mv2.jpg",
+  "Prancheta 3_edited.png | https://static.wixstatic.com/media/92fb3b_d256dc73c27a4921a8f8cfc07b94ca9c~mv2.png/v1/fill/w_221,h_221,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Prancheta%203_edited.png",
+  "Prancheta 2_edited.png | https://static.wixstatic.com/media/92fb3b_f4255268aa5f498cb2498d95bd4331d5~mv2.png/v1/fill/w_211,h_211,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Prancheta%202_edited.png",
+  "FOTOS-PRODUTOS-WEBPrancheta-1_edited_edi | https://static.wixstatic.com/media/92fb3b_dfeaa5eb717a4ce3bdb9f6655e351d13~mv2.png/v1/crop/x_56,y_56,w_688,h_688/fill/w_178,h_178,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FOTOS-PRODUTOS-WEBPrancheta-1_edited_edi.png",
+  "intercientifica_0006_NeoMAP® 4Plex.jpg | https://static.wixstatic.com/media/92fb3b_40bbc7b2c77543bfb5e67e7a41014a29~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0006_NeoMAP%C2%AE%204Plex.jpg",
+  "intercientifica_0007_NEO MAP 3Plex IgG.jpg | https://static.wixstatic.com/media/92fb3b_44b92b31647048089bd9aaad207fcdf0~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0007_NEO%20MAP%203Plex%20IgG.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_99eb321d16ed412282aac40df61da8f6f000.jpg/v1/fill/w_300,h_246,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_99eb321d16ed412282aac40df61da8f6f000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_095e8e35317148d0aa8b170d0d35ea7ff000.jpg/v1/fill/w_300,h_246,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_095e8e35317148d0aa8b170d0d35ea7ff000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_f09b1d5c8be1492d83d028396bef9779f000.jpg/v1/fill/w_300,h_246,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_f09b1d5c8be1492d83d028396bef9779f000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_f2e31294e98c4b3e9e552767aaed2208f000.jpg/v1/fill/w_300,h_245,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_f2e31294e98c4b3e9e552767aaed2208f000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_d93c4718ebcb4f34a360d15533101265f000.jpg/v1/fill/w_300,h_246,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_d93c4718ebcb4f34a360d15533101265f000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_b24ce5126c5241a3bcbd08a9e0ad9b9ff000.jpg/v1/fill/w_300,h_245,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_b24ce5126c5241a3bcbd08a9e0ad9b9ff000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_f7f4e7c55a024cae853030c583ef4780f000.jpg/v1/fill/w_300,h_245,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_f7f4e7c55a024cae853030c583ef4780f000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_bb2b69d6397c4c35ad948cfb649e5999f000.jpg/v1/fill/w_300,h_245,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_bb2b69d6397c4c35ad948cfb649e5999f000.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_62ad1439e05944189343c1ab52b97faef000.jpg/v1/fill/w_300,h_243,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_62ad1439e05944189343c1ab52b97faef000.jpg",
+  "intercientifica_0005_NeoLISA® PKU.jpg | https://static.wixstatic.com/media/92fb3b_25a9d61965df48649d0489229f7c6ea1~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0005_NeoLISA%C2%AE%20PKU.jpg",
+  "intercientifica_0003_NeoLISA® GAL.jpg | https://static.wixstatic.com/media/92fb3b_1307ae4492ed469aa6c05a570f15a36f~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0003_NeoLISA%C2%AE%20GAL.jpg",
+  "intercientifica_0002_NeoLISA® MSUD.jpg | https://static.wixstatic.com/media/92fb3b_7e7868a7de494ae5953da2d808e3fa44~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0002_NeoLISA%C2%AE%20MSUD.jpg",
+  "intercientifica_0004_NeoLISA® G6PD.jpg | https://static.wixstatic.com/media/92fb3b_0ef5c8d5b9ae470da1032ea0eba3afaf~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0004_NeoLISA%C2%AE%20G6PD.jpg",
+  "intercientifica_0001_NeoLISA® BIO Quantitativo.jpg | https://static.wixstatic.com/media/92fb3b_d2b8e2c5847d481eb2b5b75698f74eef~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0001_NeoLISA%C2%AE%20BIO%20Quantitativo.jpg",
+  "intercientifica_0000_NeoLISA® BIO Qualitativo .jpg | https://static.wixstatic.com/media/92fb3b_f3cf4b1ddc984a6a8188dfcbd699877a~mv2.jpg/v1/crop/x_0,y_187,w_3384,h_2393/fill/w_502,h_355,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/intercientifica_0000_NeoLISA%C2%AE%20BIO%20Qualitativo%C2%A0.jpg",
+  " | https://static.wixstatic.com/media/92fb3b_6780f3e7fe6440b89381544a89bdc44f~mv2.jpg/v1/crop/x_0,y_151,w_1988,h_1718/fill/w_289,h_250,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_6780f3e7fe6440b89381544a89bdc44f~mv2.jpg",
+  "nimbus-01.png | https://static.wixstatic.com/media/92fb3b_027bdc16733c49ad8fc8566656250d5e~mv2.png/v1/crop/x_92,y_0,w_3200,h_2768/fill/w_289,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nimbus-01.png",
+  "VID_20201113_123047851.00_00_00_00.Quadro002.jpg | https://static.wixstatic.com/media/92fb3b_c72cc160a2f1455b9a123e2c79aaff4c~mv2.jpg/v1/fill/w_1425,h_745,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_c72cc160a2f1455b9a123e2c79aaff4c~mv2.jpg",
+  "1011_M.jpg | https://static.wixstatic.com/media/92fb3b_6dbcbaf6a6d14673ad1ce204cedb13a7~mv2.jpg/v1/fill/w_713,h_932,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/92fb3b_6dbcbaf6a6d14673ad1ce204cedb13a7~mv2.jpg"
+ ],
+ "home_text_full": "Ir para o conteúdo principal\n\n+55 12 3949-9700\n\nHome\nEmpresa\nEventos\nProdutos\nArtigos\nNotícias\nContato\n\ninfo@meusite.com\n\n(11) 3456-7890\n\nInovação, \ntecnologia\ne qualidade\n \n\nTriagem Pré-natal e Neonatal \n\nTeste do Pezinho\n\nserá ampliado e detectará até 50 novas doenças\n\nLeia mais\nQuem somos\n\nA Intercientifica é uma empresa pioneira e inovadora, especializada no ramo de triagem neonatal e pré-natal, com fabricação 100% nacional de kits, reagentes, softwares e cartões de coleta personalizados para laboratórios. Fundada em 1994, com objetivo social de pesquisar, desenvolver produtos e serviços que garantam eficiência e precisão em programas de triagem de doenças neonatais e pré-natais.\n\nSão 30 anos de experiência na área de triagem neonatal e pré-natal. Neste período a Intercientifica já produziu mais de 48 milhões de análises, beneficiando a qualidade de vida de milhares de pacientes e de seus familiares, pois com o diagnóstico precoce foi possível obter acesso aos tratamentos específicos e desenvolver uma vida saudável.\n\nVisão\n\nApresentar novas tecnologias para a medicina diagnóstica, priorizando e melhorando a vida humana.\n\nMissão\n\nFornecer produtos e serviços de qualidade, através de investimentos constantes na pesquisa, desenvolvimento e aprimorando de seus produtos, de maneira independente, procurando sempre atender as necessidades do mercado.Buscar continuamente soluções por meio de novas ferramentas, tecnologias e produtos. E disponibilizar suporte constante aos clientes. \n\nValores\n\nInovação - estimular a equipe na busca constante pela inovação de produtos e processos. \n\nIndependência - Desenvolvimento visando a reduzir a dependência com outras empresas.\n\nImagem - Elevar e divulgar a imagem da empresa nacional como solução para as necessidades do mercado.\n\nQualidade - superar as expectativas dos clientes quanto aos nossos produtos e serviços.\n\nCustos - monitorar continuamente e reduzir desperdícios para a obtenção de processos enxutos.\n\nEntrega - atender por ordem de pedidos os clientes no tempo certo.\n\nÉtica - garantir que as relações com clientes e funcionários sejam baseadas na ética e conduta dos negócios e na empresa.\n\nSegurança - trabalhar de maneira eficiente, garantindo a segurança dos usuários e apoiando nosso sistema de gestão da qualidade, que tem como base a inovação de processos visando a melhoria contínua.\n\nSustentabilidade - utilizar de maneira consciente os recursos naturais e buscar a redução e destinação correta de resíduos.\n\nCertificações\nBoas Práticas de Fabricação e Controle de Produtos para a Saúde – In Vitro Classes III e IV- ANVISA\n\nNosso laboratório, bem como, todos os nossos processos, procedimentos e registros atendem à certificação de Boas Práticas de Fabricação e Controle de Produtos para a Saúde, através de inspeções periódicas da autoridade sanitária brasileira – ANVISA.                                       \n\nControle de qualidade\n\nPNCQ - Programa Nacional de Controle de Qualidade \nParticipantes do programa de Controle Externo de Qualidade Nacional. \n\n​\n\nCDC – NSQAP Newborn Screening Quality Assurance Program - EUA\nParticipantes do programa de Controle Externo de Qualidade. \n\n​\n\nSLEIMPN - Sociedad Latioamericana de Errores Innatos del Metabolismo y Pesquisa Neonatal \nParticipantes do programa de Controle Externo de Qualidade da América Latina\n\n​\n\nISNS – International Society for Neonatal Screening - CE\nSomos participantes do programa de Controle Externo de Qualidade     \n\n​\n\nPEEC- Programa de Evaluación Externa de Calidad de la Fundación Bioquímica Argentina\n \n\nNossos Produtos\nTriagem Pré-natal e Neonatal\n\nKits NeoMAP® para ensaios múltiplos simultâneos, utilizando a plataforma xMAP®, da Luminex®, das seguintes doenças: \n\nEnsaio manual e automatizado;\n\nRealização Simultânea de TSH, T4,17-OH e IRT;\n\nMaior facilidade na integração dos dados;\n\nPrecisão de 50-100 vezes maior que os métodos fluorimétricos ELISA tradicionais;\n\nRedução do tempo de processamento em mais de 50%;\n\nRedução do volume de água reagente, material para descarte e menor dependência de espaço físico;\n\nDiminuição de volume de picotagem e microplacas.\n\nNeoMAP® 4Plex\n\nDetecção simultânea dos marcadores TSH, T4, 17-OH e IRT na Triagem de Hipotireoidismo Congênito, Hiperplasia Adrenal Congênita e Fibrose Cística. \n\nEnsaio Multiplex\n\n \n\n2300 determinações | REF. 16635-230 \n\nEnsaio manual;\n\nRealização simultânea para a analise de anticorpos da classe IgG contra Toxoplasmose, Rubéola e Citomegalovirose;\n\nMaior facilidade na integração dos dados;\n\nPrecisão de 50-100 vezes maior que os métodos fluorimétricos ELISA tradicionais;\n\nRedução do tempo de processamento em mais de 50%;\n\nRedução do volume de água reagente, material para descarte e menor dependência de espaço físico;\n\nDiminuição de volume de picotagem e microplacas.\n\nNeoMAP® 3Plex IgG\n\nDeterminação semiquantitativa de anticorpos IgG contra: Toxoplasma gondii, Rubéola e Citomegalovírus, através de realização simultânea em formato multiplex.\n\nEnsaio Multiplex\n\n \n\n1920 determinações | REF. 18635-192 \n\nEnsaio manual;\n\nRealização simultânea para análise de anticorpos da classe IgM contra Toxoplasmose, Rubéola e Citomegalovirose;\n\nMaior facilidade na integração dos dados;\n\nPrecisão de 50-100 vezes maior que os métodos fluorimétricos ELISA tradicionais;\n\nRedução do tempo de processamento em mais de 50%;\n\nRedução do volume de água reagente, material para descarte e menor dependência de espaço físico;\n\nDiminuição de volume de picotagem e microplacas.\n\nNeoMAP® 3Plex IgM\n\nDeterminação semiquantitativa de anticorpos IgM contra: Toxoplasma gondii, Rubéola e Citomegalovírus, através de realização simultânea em formato multiplex.\n\nEnsaio Multiplex\n\n \n\n1920 determinações | REF. 19635-192 \n\nKits NeoLISA® em ensaios enzimáticos/colorimétricos para triagem das seguintes doenças em recém-nascidos:\n\nEnsaio manual, semiautomatizado e automatizado;\n\nTempo reduzido de ensaio;\n\nNão sofre intercorrências de antibióticos ou outros medicamentos;\n\nAltamente sensível e específico.\n\nNeoLISA® PKU\n\nQuantificação da Fenilalanina na Triagem Neonatal da Fenilcetonúria.\n\n \n\n2000 determinações | REF. 1570-200\n\nEnsaio manual e automatizado;\n\nTempo reduzido de ensaio;\n\nRealiza quantificação da Galactose Total;\n\nAltamente sensível e específico;\n\nProcedimento laboratorial rápido e simplificado.\n\nNeoLISA® GAL\n\nQuantificação da Galactose Total na Triagem Neonatal da Galactosemia.\n\n​\n\n2000 determinações | REF. 2570-200\n\nEnsaio manual e automatizado;\n\nTempo reduzido de ensaio;\n\nNão sofre interferência de antibióticos ou outros medicamentos;\n\nAltamente sensível e específico;\n\nProcedimento laboratorial simplificado.\n\nNeoLISA® MSUD\n\nQuantificação da Leucina, Isoleucina e Valina na Triagem da Doença do Xarope de Bordo (MSUD). \n\n​\n\n2000 determinações | REF. 4570-200\n\nEnsaio Manual;\nTempo reduzido de ensaio;\nNão sofre interferência de antibióticos ou outros medicamentos;\nAltamente sensível e específico;\nProcedimento laboratorial simplificado.\n\nNeoLISA® G6PD\n\nAvaliação da atividade enzimática da Glicose-6-fosfato Desidrogenase na Triagem da Deficiência de G6PD.\n\n​\n\n500 determinações    | REF. 3570-050\n\n2000 determinações  | REF. 3570-200\n\nEnsaio manual e semiautomatizado;\n\nDiferenciação precisa entre casos normais, intermediários e deficientes;\n\nReagentes prontos para o uso;\n\nProcedimento laboratorial simplificado.\n\nNeoLISA® BIO Quantitativo\n\nAvaliação da atividade enzimática da Biotinidase na Triagem da Deficiência de Biotinidase.\n\nEnsaio Quantitativo\n\n​\n\n3000 determinações | REF. 17570-300\n\nEnsaio manual;\n\nDiferenciação precisa entre casos normais, intermediários e deficientes;\n\nReagentes prontos para o uso;\n\nProcedimento laboratorial simplificado.\n\nNeoLISA® BIO Qualitativo \n\nAvaliação da atividade enzimática da Biotinidase na Triagem da Deficiência de Biotinidase.\n\nEnsaio Qualitativo\n\n​\n\n300 determinações | REF. 9570-030\n3000 determinações | REF. 9570-300\n\nCartões de coleta\n\nCartões de coleta de sangue personalizados para laboratórios\n\nSoluções de automação \n\nSoluções de automação completa para as linhas NeoLISA® e NeoMAP®, utilizando o sistema da Hamilton® Robotics e Opentrons®.\n\nNossa Equipe​​\n\nA qualidade e a excelência dos nossos produtos se devem ao alto nível de qualificação do nosso time de colaboradores e pesquisadores formado por doutores, mestres, especialistas em suas respectivas áreas, com experiências em órgãos internacionais de pesquisa e de ensino superior, tendo diversos trabalhos científicos publicados em revistas e jornais científicos nacionais e internacionais.\n\nA nossa equipe de profissionais é composta por Biólogos, Biomédicos, Farmacêuticos, Químicos, Engenheiros e Administradores que prezam pelo aperfeiçoamento continuado.\n \n\nFale Conosco\nNome\nSobrenome\nEmail\nCódigo\nAW +297\nAO +244\nAF +93\nAI +1\nAX +358\nAL +355\nAD +376\nAE +971\nAR +54\nAM +374\nAS +1684\nAQ +672\nTF +262\nAG +1\nAU +61\nAT +43\nAZ +994\nBI +257\nBE +32\nBJ +229\nBQ +599\nBF +226\nBD +880\nBG +359\nBH +973\nBS +1\nBA +387\nBL +590\nBY +375\nBZ +501\nBM +1\nBO +591\nBR +55\nBB +1246\nBN +673\nBT +975\nBV +55\nBW +267\nCF +236\nCA +1\nCC +61\nCH +41\nCL +56\nCN +86\nCI +225\nCM +237\nCD +243\nCG +242\nCK +682\nCO +57\nKM +269\nCV +238\nCR +506\nCW +599\nCX +61\nKY +1\nCY +357\nCZ +420\nDE +49\nDJ +253\nDM +1\nDK +45\nDO +1\nDZ +213\nEC +593\nEG +20\nER +291\nEH +212\nES +34\nEE +372\nET +251\nFI +358\nFJ +679\nFK +500\nFR +33\nFO +298\nFM +691\nGA +241\nGB +44\nGE +995\nGG +44\nGH +233\nGI +350\nGN +224\nGP +590\nGM +220\nGW +245\nGQ +240\nGR +30\nGD +1\nGL +299\nGT +502\nGF +594\nGU +1\nGY +592\nHK +852\nHM +672\nHN +504\nHR +385\nHT +509\nHU +36\nID +62\nIM +44\nIN +91\nIO +246\nIE +353\nIS +354\nIL +972\nIT +39\nJM +1876\nJE +44\nJO +962\nJP +81\nKZ +7\nKE +254\nKG +996\nKH +855\nKI +686\nKN +1\nKR +82\nXK +383\nKW +965\nLA +856\nLB +961\nLR +231\nLY +218\nLC +1\nLI +423\nLK +94\nLS +266\nLT +370\nLU +352\nLV +371\nMO +853\nMF +590\nMA +212\nMC +377\nMD +373\nMG +261\nMV +960\nMX +52\nMH +692\nMK +389\nML +223\nMT +356\nMM +95\nME +382\nMN +976\nMP +1670\nMZ +258\nMR +222\nMS +1\nMQ +596\nMU +230\nMW +265\nMY +60\nYT +262\nNA +264\nNC +687\nNE +227\nNF +672\nNG +234\nNI +505\nNU +683\nNL +31\nNO +47\nNP +977\nNR +674\nNZ +64\nOM +968\nPK +92\nPA +507\nPN +64\nPE +51\nPH +63\nPW +680\nPG +675\nPL +48\nPR +1\nPT +351\nPY +595\nPS +970\nPF +689\nQA +974\nRE +262\nRO +40\nRU +7\nRW +250\nSA +966\nSD +249\nSN +221\nSG +65\nGS +500\nSH +290\nSJ +47\nSB +677\nSL +232\nSV +503\nSM +378\nSO +252\nPM +508\nRS +381\nSS +211\nST +239\nSR +597\nSK +421\nSI +386\nSE +46\nSZ +268\nSX +1721\nSC +248\nTC +1\nTD +235\nTG +228\nTH +66\nTJ +992\nTK +690\nTM +993\nTL +670\nTO +676\nTT +1868\nTN +216\nTR +90\nTV +688\nTW +886\nTZ +255\nUG +256\nUA +380\nUM +1\nUY +598\nUS +1\nUZ +998\nVA +39\nVC +1\nVE +58\nVG +1\nVI +1\nVN +84\nVU +678\nWF +681\nWS +685\nYE +967\nZA +27\nZM +260\nZW +263\nTelefone\nSelecione um serviço\nEscolha uma opção\nTriagem Neonatal\nTriagem Pré-Natal\nEquipamentos\nAssuntos comerciais\nRecursos Humanos\nReclamações\nOutros\nForneça mais informações\nEnviar\nContato\n\nPara saber mais sobre nossos produtos\n\nentre em contato com nossa equipe científica. \n\nTEL: +55 12 3949-9700\n\nic@intercientifica.com.br\n\nb2c@intercientifica.com.br\n\nAv. Shishima Hifumi, 2911\nPq. Tecnológico UNIVAP\n\nMOD 306-309\nCEP 12244-000\n\nSão José dos Campos\n\nSão Paulo – Brasil\n\na.cientifica@intercientifica.com.br\n\nTel: +55 123949 9700\n\n©2023 por @fmkt_oficial. \nAgência Força do Marketing.",
+ "eventos_text": "Ir para o conteúdo principal\n\n+55 12 3949-9700\n\nHome\nEmpresa\nEventos\nProdutos\nArtigos\nNotícias\nContato\nEventos\nNewborn Screening Symposium\n\nSimpósio de Triagem Neonatal\n\nOutubro 15–19 • Sacramento, CA\n\nClique para ver o site do evento\n\nAv. Shishima Hifumi, 2911\nPq. Tecnológico UNIVAP\n\nMOD 306-309\nCEP 12244-000\n\nSão José dos Campos\n\nSão Paulo – Brasil\n\na.cientifica@intercientifica.com.br\n\nTel: +55 123949 9700\n\n©2023 por @fmkt_oficial. \nAgência Força do Marketing.",
+ "eventos_links": [
+  "Clique para ver o site do evento -> https://www.aphl.org/programs/newborn_screening/Pages/default.aspx"
+ ],
+ "eventos_imgs": [
+  "evento23.png | https://static.wixstatic.com/media/92fb3b_39b6b8b4ac314aa4bad2a36f6de713e7~mv2.png/v1/fill/w_528,h_432,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/evento23.png"
+ ],
+ "noticias_text": "Ir para o conteúdo principal\n\n+55 12 3949-9700\n\nHome\nEmpresa\nEventos\nProdutos\nArtigos\nNotícias\nContato\nNotícias\n\nCongresso Internacional de Triagem Neonatal APHL/ISNS Newborn Screening Symposium\n\nIntercientifica participa do Congresso Internacional de Triagem Neonatal APHL/ISNS Newborn Screening Symposium , que ocorreu entre os dias 15 e 18 de Outubro de 2023, em Sacramento, Califórnia, Estados Unidos.\n\nLer mais\n\n1.750.300 análises já realizadas com o Kit NeoMAP® 4PLEX\n\nEste marco representa o primeiro passo para a mais importante implementação no mercado de Triagem Neonatal nos últimos\n\nLer mais\n\nBiotinidase – Teste Qualitativo ou Quantitativo?\n\nEm 2015, a Secretaria de Atenção à Saúde, que integra o Departamento de Atenção Especializada e Temática, do\n\nLer mais\n\nIntercientífica recebe da ANVISA o Certificado de Boas Práticas de Fabricação Classe de Risco III\n\nEm 2009, a INTERCIENTIFICA recebeu o Certificado de BPF (Boas Práticas de Fabricação) da ANVISA, o qual comprov\n\nLer mais\n\nDia Mundial de doenças raras\n\n28 de Fevereiro é o dia mundial das Doenças Raras. Em colaboração com a divulgação, a nossa equipe preparou\n\nLer mais\n\nIntercientífica é destaque como parceiro de tecnologias licenciadas da Luminex\n\nTeste pré-natal confiável e triagem de recém-nascidos com base no xMAP® Tecnologia.\n\nLer mais\n\nTeste do Pezinho será ampliado e detectará até 50 novas doenças\n\nFoi sancionada a Lei nº 14.154, que amplia para 50 o número de doenças rastreadas pelo Teste do Pezinho\n\nLer mais\n\nIntercientífica vence o prêmio FINEP 2010 na Região Sudeste\n\nEm novembro de 2010, a FINEP – Financiadora de Estudos e Projetos –, companhia pública vinculada ao Ministério\n\nLer mais\n\nA Doença da Urina do Xarope de Bordo\n\nTambém conhecida como leucinose ou Maple Syrup Urine Disease (MSUD) é caracterizada pela deficiência do complexo enzimático desidrogenas\n\nLer mais\n\nArtigo: melhorias a serem adotadas na Triagem Neonatal da Fibrose Cística\n\nA adequada conduta para a realização da Triagem Neonatal para Fibrose Cística obtém cada vez mais destaque na\n\nLer mais\n\nJunho Lilás: o mês de conscientização sobre o teste de Pezinho\n\nO Teste do Pezinho é um exame realizado em todos os recém-nascidos a partir da coleta do sangue do calcanhar do bebê\n\nLer mais\n\nIntercientífica participa do Congresso Internacional de Triagem Neonatal, em Haia, Holanda.\n\nRecordando a participação da INTERCIENTIFICA no Congresso Internacional de Triagem Neonatal em\n\nLer mais\n\nIntercientífica vence o Prêmio Abimo Inova Saúde 2011\n\nO Prêmio ABIMO Inova Saúde 2011 da Associação Brasileira da Indústria de Artigos e Equipamentos Médicos e\n\nLer mais\n\nA importância da Triagem Neonatal para o Hipotiroidismo Congênito (HC)\n\nA importância da Triagem Neonatal para o Hipotiroidismo Congênito (HC), a fim de evitar sequelas como o retardo mental\n\nLer mais\n\nAv. Shishima Hifumi, 2911\nPq. Tecnológico UNIVAP\n\nMOD 306-309\nCEP 12244-000\n\nSão José dos Campos\n\nSão Paulo – Brasil\n\na.cientifica@intercientifica.com.br\n\nTel: +55 123949 9700\n\n©2023 por @fmkt_oficial. \nAgência Força do Marketing.",
+ "noticias_items": [
+  {
+   "href": "https://www.intercientifica.com.br/congresso-aphl2023",
+   "block": "Congresso Internacional de Triagem Neonatal APHL/ISNS Newborn Screening Symposium Intercientifica participa do Congresso Internacional de Triagem Neonatal APHL/ISNS Newborn Screening Symposium , que ocorreu entre os dias 15 e 18 de Outubro de 2023, em Sacramento, Califórnia, Estados Unidos. Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_d2950b724f224b858d07a8bf506232bf~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/1750300analisesjarealizadascomokitneomap4plex",
+   "block": "1.750.300 análises já realizadas com o Kit NeoMAP® 4PLEX Este marco representa o primeiro passo para a mais importante implementação no mercado de Triagem Neonatal nos últimos Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_811b401277dd4d9eb3cca496cfbf3824~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/biotinidasetestequalitativoouquantitativo",
+   "block": "Biotinidase – Teste Qualitativo ou Quantitativo? Em 2015, a Secretaria de Atenção à Saúde, que integra o Departamento de Atenção Especializada e Temática, do Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_ea8bbd619a894945bda52154e714ce78~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/intercientificarecebedaanvisaocertificadodeboaspr%C3%A1ticasdefabrica%C3%A7%C3%A3oclassederiscoiii",
+   "block": "Intercientífica recebe da ANVISA o Certificado de Boas Práticas de Fabricação Classe de Risco III Em 2009, a INTERCIENTIFICA recebeu o Certificado de BPF (Boas Práticas de Fabricação) da ANVISA, o qual comprov Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_dd3b23a1c3a94dc0bb64e3cb31dac250~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/c%C3%B3pia-a-import%C3%A2ncia-da-triagem-neona",
+   "block": "Dia Mundial de doenças raras 28 de Fevereiro é o dia mundial das Doenças Raras. Em colaboração com a divulgação, a nossa equipe preparou Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_17339229d34646f48c2f54029af88551~mv2.jpeg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpeg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/intercientifica-e-destaque-como-parceiro-de-tecnologias-licenciadas-da-luminex",
+   "block": "Intercientífica é destaque como parceiro de tecnologias licenciadas da Luminex Teste pré-natal confiável e triagem de recém-nascidos com base no xMAP® Tecnologia. Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_4503a0c6341e4dcfa09d4f5ec0228e09~mv2.png/v1/fill/w_306,h_300,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.png"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/testedopezinhoser%C3%A1ampliadoedetectar%C3%A1at%C3%A950novasdoen%C3%A7as",
+   "block": "Teste do Pezinho será ampliado e detectará até 50 novas doenças Foi sancionada a Lei nº 14.154, que amplia para 50 o número de doenças rastreadas pelo Teste do Pezinho Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_bef501c201d0431a978c0c9c01d9eb25~mv2.png/v1/fill/w_306,h_300,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.png"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/intercientificavenceopr%C3%AAmiofinep2010naregi%C3%A3osudeste",
+   "block": "Intercientífica vence o prêmio FINEP 2010 na Região Sudeste Em novembro de 2010, a FINEP – Financiadora de Estudos e Projetos –, companhia pública vinculada ao Ministério Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_6696a2b8da204608984c89622e148e5c~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/a-doenca-da-urina-do-xarope-de-bordo",
+   "block": "A Doença da Urina do Xarope de Bordo Também conhecida como leucinose ou Maple Syrup Urine Disease (MSUD) é caracterizada pela deficiência do complexo enzimático desidrogenas Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_a9c184a9f2c342eab84745391ef01577~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/artigo-melhorias-a-serem-adotadas-na-triagem-neonatalda-fibrose-c%C3%ADstica",
+   "block": "Artigo: melhorias a serem adotadas na Triagem Neonatal da Fibrose Cística A adequada conduta para a realização da Triagem Neonatal para Fibrose Cística obtém cada vez mais destaque na Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_683cd63081c64866ba97ffa08694cd0c~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/junho-lilas-o-mes-de-conscientizacao-sobre-o-teste-de-pezinho",
+   "block": "Junho Lilás: o mês de conscientização sobre o teste de Pezinho O Teste do Pezinho é um exame realizado em todos os recém-nascidos a partir da coleta do sangue do calcanhar do bebê Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_9c7089cb189b4624acdd131a708c33d6~mv2.webp/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.webp"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/intercientificaparticipadocongressointernacionaldetriagemneonatalemhaiaholanda",
+   "block": "Intercientífica participa do Congresso Internacional de Triagem Neonatal, em Haia, Holanda. Recordando a participação da INTERCIENTIFICA no Congresso Internacional de Triagem Neonatal em Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_86eab26617bb4d9ca803a66f3da55baa~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/intercientificavenceopr%C3%AAmioabimoinovasa%C3%BAde2011",
+   "block": "Intercientífica vence o Prêmio Abimo Inova Saúde 2011 O Prêmio ABIMO Inova Saúde 2011 da Associação Brasileira da Indústria de Artigos e Equipamentos Médicos e Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_630cc8829d92473e8f8fa817dbe019e2~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/c%C3%B3pia-a-doen%C3%A7a-da-urina-do-xarope-de",
+   "block": "A importância da Triagem Neonatal para o Hipotiroidismo Congênito (HC) A importância da Triagem Neonatal para o Hipotiroidismo Congênito (HC), a fim de evitar sequelas como o retardo mental Ler mais",
+   "img": "https://static.wixstatic.com/media/92fb3b_a2541cb25cf245aca1f2076bab985a8c~mv2.jpg/v1/fill/w_306,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/BLOG583148_xMAP__Partner_Intercientifica_0523_BlogImage-1.jpg"
+  }
+ ],
+ "artigos_pagination": [],
+ "artigos_items": [
+  {
+   "href": "https://www.intercientifica.com.br/post/performance-of-the-neomap-5plex-ht-multiplex-kit-for-simultaneous-detection-of-t4-17ohp-irt-tsh",
+   "title": "Performance of the NeoMAP® 5plex HT multiplex kit for simultaneous detection of T4, 17OHP, IRT, TSH",
+   "block": "Performance of the NeoMAP® 5plex HT multiplex kit for simultaneous detection of T4, 17OHP, IRT, TSH O objetivo do estudo foi avaliar o desempenho do kit NeoMAP® 5plex HT para detecção simultânea dos parâmetros T4, 17OHP, IRT, TSH e...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/valida%C3%A7%C3%A3o-anal%C3%ADtica-do-neomap-4plex-tsh-t4-17oh-irt-em-ensaio-automatizado-nimbus-neomap",
+   "title": "Validação analítica do NeoMAP® 4PLEX TSH T4 17OH IRT em ensaio automatizado NIMBUS® NeoMAP®",
+   "block": "Validação analítica do NeoMAP® 4PLEX TSH T4 17OH IRT em ensaio automatizado NIMBUS® NeoMAP® A Validação realizada no Instituto Jô Clemente no período de 16 de Janeiro à 02 de Fevereiro de 2023 utilizou o kit NeoMAP® 4PLEX que...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/comparativo-de-tsh-entre-o-m%C3%A9todo-meia-utilizando-soro-e-o-fluorim%C3%A9trico-multiplex-simult%C3%A2neo",
+   "title": "Comparativo de TSH entre o Método MEIA Utilizando Soro e o Fluorimétrico Multiplex Simultâneo",
+   "block": "Comparativo de TSH entre o Método MEIA Utilizando Soro e o Fluorimétrico Multiplex Simultâneo Comparativo Inicial de Resultado de TSH entre o Método MEIA Utilizando Soro e o Fluorimétrico Multiplex Simultâneo em Amostras Coletadas...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/caracteriza%C3%A7%C3%A3o-molecular-da-defici%C3%AAncia-da-glicose-6-fosfato-desidrogenase-g6pd",
+   "title": "Caracterização molecular da Deficiência da Glicose-6-Fosfato Desidrogenase (G6PD)",
+   "block": "Caracterização molecular da Deficiência da Glicose-6-Fosfato Desidrogenase (G6PD) Caracterização molecular da Deficiência da Glicose-6-Fosfato Desidrogenase (G6PD) em uma amostra de Porto Alegre-RS, dados...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/defici%C3%AAncia-de-g-6-pd-nos-rec%C3%A9m-nascidos-de-uberaba-mg-2005",
+   "title": "Deficiência de G-6-PD nos recém-nascidos de Uberaba, MG. (2005)",
+   "block": "Deficiência de G-6-PD nos recém-nascidos de Uberaba, MG. (2005) A glicose-6-fosfato desidrogenase (G-6-PD) é uma enzima presente em todas as células, que catalisa o primeiro passo metabólico da hexose...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/comparativo-entre-metodologias-na-dosagem-de-tsh-neonatal-2005",
+   "title": "Comparativo entre metodologias na dosagem de TSH neonatal.(2005)",
+   "block": "Comparativo entre metodologias na dosagem de TSH neonatal.(2005)",
+   "img": "https://static.wixstatic.com/media/92fb3b_e96db9c1d70745c987c8bd4ac29b7532~mv2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_avif,quality_auto/92fb3b_e96db9c1d70745c987c8bd4ac29b7532~mv2.jpg"
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/muta%C3%A7%C3%B5es-de-fibrose-c%C3%ADstica-em-rec%C3%A9m-nascidos-com-hipertripsinemia-2006",
+   "title": "Mutações de Fibrose Cística em recém-nascidos com Hipertripsinemia (2006)",
+   "block": "Mutações de Fibrose Cística em recém-nascidos com Hipertripsinemia (2006) A dosagem da concentração da tripsina imunorreativa(IRT) em sangue seco em papel-filtro é a modalidade mais comum de triagem neonatal da...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/estudo-da-metemoglobinemia-e-defici%C3%AAncia-de-glicose-6-fosfato-desidrogenase-em-pacientes-com-mal%C3%A1ria",
+   "title": "Estudo da Metemoglobinemia e Deficiência de Glicose-6-Fosfato-Desidrogenase em pacientes com malária",
+   "block": "Estudo da Metemoglobinemia e Deficiência de Glicose-6-Fosfato-Desidrogenase em pacientes com malária Estudo sobre Metemoglobinemia e Deficiência de Glicose-6-Fosfato-Desidrogenase em pacientes com Malária tratados com Primaquina na...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/acur%C3%A1cia-do-m%C3%A9todo-qualitativo-da-medida-da-atividade-da-glicose-6-fosfato-desidrogenase-2007",
+   "title": "Acurácia do método qualitativo da medida da atividade da glicose-6-fosfato desidrogenase. (2007)",
+   "block": "Acurácia do método qualitativo da medida da atividade da glicose-6-fosfato desidrogenase. (2007) Determinação da acurácia do método qualitativo da medida da atividade da glicose-6-fosfato desidrogenase. (2007) A deficiência de...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/programa-de-triagem-neonatal-do-hospital-das-cl%C3%ADnicas-da-faculdade-de-medicina-de-ribeir%C3%A3o-preto",
+   "title": "Programa de Triagem Neonatal do Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto",
+   "block": "Programa de Triagem Neonatal do Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto Programa de Triagem Neonatal do Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto, Universidade de São Paulo,...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/estudo-da-detec%C3%A7%C3%A3o-simult%C3%A2nea-de-torsch-utilizando-o-kit-neomap-doen%C3%A7as-infecciosas",
+   "title": "Estudo da detecção simultânea de ToRSCH utilizando o Kit NeoMAP® Doenças Infecciosas",
+   "block": "Estudo da detecção simultânea de ToRSCH utilizando o Kit NeoMAP® Doenças Infecciosas Estudo da detecção simultânea de ToRSCH através da Triagem Pré e Neonatal, utilizando o Kit NeoMAP® Doenças Infecciosas.(2009) No Brasil,...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/m%C3%A9todo-enzim%C3%A1tico-colorim%C3%A9trico-x-m%C3%A9todo-fluorim%C3%A9trico",
+   "title": "Método enzimático colorimétrico x método Fluorimétrico",
+   "block": "Método enzimático colorimétrico x método Fluorimétrico Comparação de um método enzimático colorimétrico(INTERCIENTÍFICA) com o método Fluorimétrico (PERKIN ELMER) para detecção de Fenilalanina...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/estudo-multic%C3%AAntrico-da-incid%C3%AAncia-doen%C3%A7as-infecciosas-em-gestantes-e-rec%C3%A9m-nascidos-2010",
+   "title": "Estudo Multicêntrico da Incidência Doenças Infecciosas em gestantes e recém-nascidos. (2010)",
+   "block": "Estudo Multicêntrico da Incidência Doenças Infecciosas em gestantes e recém-nascidos. (2010) Por meio do projeto multicêntrico Nº 01.07.0034.00 realizado pela INTERCIENTIFICA com apoio financeiro da Financiadora de Estudos e...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/estudo-multicentrico-da-incid%C3%AAncia-de-doen%C3%A7as-infecciosas-em-gestantes-e-rec%C3%A9m-nascidos",
+   "title": "Estudo multicentrico da incidência de Doenças Infecciosas em gestantes e recém-nascidos",
+   "block": "Estudo multicentrico da incidência de Doenças Infecciosas em gestantes e recém-nascidos Estudo multicentrico da incidência de Doenças Infecciosas em gestantes e recém-nascidos e avaliação da performance do kit NeoMAP® DOENÇAS...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/triagem-neonatal-para-doen%C3%A7as-infecciosas-no-brasil-e-o-uso-de-uma-nova-tecnologia-2010",
+   "title": "Triagem Neonatal para Doenças Infecciosas no Brasil e o Uso de uma Nova Tecnologia.(2010)",
+   "block": "Triagem Neonatal para Doenças Infecciosas no Brasil e o Uso de uma Nova Tecnologia.(2010) Doenças Infecciosas no Brasil podem ser sempre consideradas como assunto de destaque. A diminuição ocorrida no perfil de morbimortalidade...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/inova%C3%A7%C3%A3o-de-produto-para-processamento-de-grandes-volumes",
+   "title": "Inovação de Produto para Processamento de Grandes Volumes",
+   "block": "Inovação de Produto para Processamento de Grandes Volumes Análise de Inovação de Produto para Processamento de Grandes Volumes de Amostras Através do Uso de um Sistema Automatizado Associado ao...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/neolisa-bio-2011",
+   "title": "NeoLISA BIO.(2011)",
+   "block": "NeoLISA BIO.(2011) Avaliação da atividade enzimática da biotinidase Sangue seco em papel filtro; Método Enzimático Colorimétrico Qualitativo e Semi...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/neomap-4plex-2011",
+   "title": "NeoMAP 4plex.(2011)",
+   "block": "NeoMAP 4plex.(2011) Detecção simultânea dos marcadores TSH, T4, 17-OH e IRT na Triagem de Hipotireoidismo Congênito, Hiperplasia Adrenal Congênita e Fibrose...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/o-uso-da-citometria-de-fluxo-na-triagem-pr%C3%A9-natal-2011",
+   "title": "O Uso da Citometria de Fluxo na Triagem Pré-natal (2011)",
+   "block": "O Uso da Citometria de Fluxo na Triagem Pré-natal (2011) Uso da Citometria de Fluxo na Triagem Pré-natal no 1º Congresso Brasileiro de Proteção Gestacional.",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/avalia%C3%A7%C3%A3o-econ%C3%B4mica-em-sa%C3%BAde-triagem-neonatal-da-galactosemia-2011",
+   "title": "Avaliação econômica em saúde: triagem neonatal da galactosemia. (2011)",
+   "block": "Avaliação econômica em saúde: triagem neonatal da galactosemia. (2011) Este trabalho avalia a eficiência da adição do exame da galactosemia junto ao Teste do Pezinho. Baseado na incidência média estimada de...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/sess%C3%A3o-tem%C3%A1tica-equipamentos-reagentes-e-outros-insumos-para-laborat%C3%B3rios-2012",
+   "title": "Sessão Temática “Equipamentos, reagentes e outros insumos para laboratórios”. (2012)",
+   "block": "Sessão Temática “Equipamentos, reagentes e outros insumos para laboratórios”. (2012) Sessão Temática “Equipamentos, reagentes e outros insumos para laboratórios” no Congresso de Inovação em Materiais e Equipamentos para...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/levantamento-cl%C3%ADnico-epidemiol%C3%B3gico-da-doen%C3%A7a-do-xarope-de-bordo-leucinose",
+   "title": "Levantamento clínico-epidemiológico da Doença do Xarope de Bordo (Leucinose)",
+   "block": "Levantamento clínico-epidemiológico da Doença do Xarope de Bordo (Leucinose) O objetivo primordial deste estudo é identificar os casos de DXB diagnosticados pela triagem neonatal no estado da Bahia entre 2001 e...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/comparativo-do-consumo-de-reagentes-qu%C3%ADmicos-e-energia-el%C3%A9trica-entre-os-ensaios-multiplex-e-elisa-c",
+   "title": "Consumo de Reagentes Químicos X Energia Elétrica nos Ensaios Multiplex e ELISA Convencional",
+   "block": "Consumo de Reagentes Químicos X Energia Elétrica nos Ensaios Multiplex e ELISA Convencional Define-se por Desenvolvimento Sustentável um modelo econômico, político, social, cultural e ambiental que \"atenda às necessidades do...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/defini%C3%A7%C3%A3o-de-valor-de-corte-estratificado-por-peso-para-triagem-neonatalde-hiperplasia-adrenal-cong",
+   "title": "Valor de corte estratificado por peso para triagem neonatal",
+   "block": "Valor de corte estratificado por peso para triagem neonatal Definição de valor de corte estratificado por peso para triagem neonatal de hiperplasia adrenal congênita em amostras coletadas em papel...",
+   "img": ""
+  },
+  {
+   "href": "https://www.intercientifica.com.br/post/glicose-6-fosfato-desidrogenase-g6pd-em-membros-de-povos-de-terreiros-de-umbanda-em-teresina-piau%C3%AD",
+   "title": "Glicose-6-fosfato desidrogenase (G6PD)em membros de povos de terreiros de umbanda em Teresina-Piauí",
+   "block": "Glicose-6-fosfato desidrogenase (G6PD)em membros de povos de terreiros de umbanda em Teresina-Piauí Nos eritrócitos deficientes de G6PD, a diminuição da redução do NADP em NADPH leva a um baixo potencial redutor que interfere na...",
+   "img": ""
+  }
+ ]
+}

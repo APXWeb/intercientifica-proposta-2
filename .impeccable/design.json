@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T18:53:10+00:00",
+  "title": "Design System: Intercientifica · Proposta 2",
+  "extensions": {
+    "colorMeta": {
+      "box-red": {
+        "role": "primary",
+        "displayName": "Vermelho da Caixa",
+        "canonical": "#DE1E18",
+        "tonalRamp": [
+          "oklch(15% 0.222 28.8)",
+          "oklch(25% 0.222 28.8)",
+          "oklch(35% 0.222 28.8)",
+          "oklch(45% 0.222 28.8)",
+          "oklch(55% 0.222 28.8)",
+          "oklch(70% 0.222 28.8)",
+          "oklch(85% 0.222 28.8)",
+          "oklch(95% 0.222 28.8)"
+        ]
+      },
+      "red-deep": {
+        "role": "primary",
+        "displayName": "Vermelho Profundo",
+        "canonical": "#B3130E",
+        "tonalRamp": [
+          "oklch(15% 0.191 29.0)",
+          "oklch(25% 0.191 29.0)",
+          "oklch(35% 0.191 29.0)",
+          "oklch(45% 0.191 29.0)",
+          "oklch(55% 0.191 29.0)",
+          "oklch(70% 0.191 29.0)",
+          "oklch(85% 0.191 29.0)",
+          "oklch(95% 0.191 29.0)"
+        ]
+      },
+      "bead-1": {
+        "role": "tertiary",
+        "displayName": "Microesfera Coral",
+        "canonical": "#FF5A47",
+        "tonalRamp": [
+          "oklch(15% 0.204 29.8)",
+          "oklch(25% 0.204 29.8)",
+          "oklch(35% 0.204 29.8)",
+          "oklch(45% 0.204 29.8)",
+          "oklch(55% 0.204 29.8)",
+          "oklch(70% 0.204 29.8)",
+          "oklch(85% 0.204 29.8)",
+          "oklch(95% 0.204 29.8)"
+        ]
+      },
+      "bead-2": {
+        "role": "tertiary",
+        "displayName": "Microesfera Âmbar",
+        "canonical": "#FFB547",
+        "tonalRamp": [
+          "oklch(15% 0.149 73.3)",
+          "oklch(25% 0.149 73.3)",
+          "oklch(35% 0.149 73.3)",
+          "oklch(45% 0.149 73.3)",
+          "oklch(55% 0.149 73.3)",
+          "oklch(70% 0.149 73.3)",
+          "oklch(85% 0.149 73.3)",
+          "oklch(95% 0.149 73.3)"
+        ]
+      },
+      "bead-3": {
+        "role": "tertiary",
+        "displayName": "Microesfera Verde-água",
+        "canonical": "#5FD3C2",
+        "tonalRamp": [
+          "oklch(15% 0.108 182.5)",
+          "oklch(25% 0.108 182.5)",
+          "oklch(35% 0.108 182.5)",
+          "oklch(45% 0.108 182.5)",
+          "oklch(55% 0.108 182.5)",
+          "oklch(70% 0.108 182.5)",
+          "oklch(85% 0.108 182.5)",
+          "oklch(95% 0.108 182.5)"
+        ]
+      },
+      "bead-4": {
+        "role": "tertiary",
+        "displayName": "Microesfera Lavanda",
+        "canonical": "#9DAAFF",
+        "tonalRamp": [
+          "oklch(15% 0.123 276.4)",
+          "oklch(25% 0.123 276.4)",
+          "oklch(35% 0.123 276.4)",
+          "oklch(45% 0.123 276.4)",
+          "oklch(55% 0.123 276.4)",
+          "oklch(70% 0.123 276.4)",
+          "oklch(85% 0.123 276.4)",
+          "oklch(95% 0.123 276.4)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#101215",
+        "tonalRamp": [
+          "oklch(15% 0.007 258.4)",
+          "oklch(25% 0.007 258.4)",
+          "oklch(35% 0.007 258.4)",
+          "oklch(45% 0.007 258.4)",
+          "oklch(55% 0.007 258.4)",
+          "oklch(70% 0.007 258.4)",
+          "oklch(85% 0.007 258.4)",
+          "oklch(95% 0.007 258.4)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Tinta Secundária",
+        "canonical": "#353A41",
+        "tonalRamp": [
+          "oklch(15% 0.014 256.8)",
+          "oklch(25% 0.014 256.8)",
+          "oklch(35% 0.014 256.8)",
+          "oklch(45% 0.014 256.8)",
+          "oklch(55% 0.014 256.8)",
+          "oklch(70% 0.014 256.8)",
+          "oklch(85% 0.014 256.8)",
+          "oklch(95% 0.014 256.8)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Tinta de Metadado",
+        "canonical": "#5B626B",
+        "tonalRamp": [
+          "oklch(15% 0.017 254.7)",
+          "oklch(25% 0.017 254.7)",
+          "oklch(35% 0.017 254.7)",
+          "oklch(45% 0.017 254.7)",
+          "oklch(55% 0.017 254.7)",
+          "oklch(70% 0.017 254.7)",
+          "oklch(85% 0.017 254.7)",
+          "oklch(95% 0.017 254.7)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papel do Rótulo",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(25% 0.000 89.9)",
+          "oklch(35% 0.000 89.9)",
+          "oklch(45% 0.000 89.9)",
+          "oklch(55% 0.000 89.9)",
+          "oklch(70% 0.000 89.9)",
+          "oklch(85% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Papel Revestido Frio",
+        "canonical": "#F0F2F3",
+        "tonalRamp": [
+          "oklch(15% 0.003 228.8)",
+          "oklch(25% 0.003 228.8)",
+          "oklch(35% 0.003 228.8)",
+          "oklch(45% 0.003 228.8)",
+          "oklch(55% 0.003 228.8)",
+          "oklch(70% 0.003 228.8)",
+          "oklch(85% 0.003 228.8)",
+          "oklch(95% 0.003 228.8)"
+        ]
+      },
+      "paper-3": {
+        "role": "neutral",
+        "displayName": "Papel de Espera",
+        "canonical": "#E3E7EA",
+        "tonalRamp": [
+          "oklch(15% 0.006 239.8)",
+          "oklch(25% 0.006 239.8)",
+          "oklch(35% 0.006 239.8)",
+          "oklch(45% 0.006 239.8)",
+          "oklch(55% 0.006 239.8)",
+          "oklch(70% 0.006 239.8)",
+          "oklch(85% 0.006 239.8)",
+          "oklch(95% 0.006 239.8)"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Fio Suave",
+        "canonical": "#CDD3D8",
+        "tonalRamp": [
+          "oklch(15% 0.010 242.9)",
+          "oklch(25% 0.010 242.9)",
+          "oklch(35% 0.010 242.9)",
+          "oklch(45% 0.010 242.9)",
+          "oklch(55% 0.010 242.9)",
+          "oklch(70% 0.010 242.9)",
+          "oklch(85% 0.010 242.9)",
+          "oklch(95% 0.010 242.9)"
+        ]
+      },
+      "chamber": {
+        "role": "neutral",
+        "displayName": "Câmara",
+        "canonical": "#0A0C0F",
+        "tonalRamp": [
+          "oklch(15% 0.007 258.4)",
+          "oklch(25% 0.007 258.4)",
+          "oklch(35% 0.007 258.4)",
+          "oklch(45% 0.007 258.4)",
+          "oklch(55% 0.007 258.4)",
+          "oklch(70% 0.007 258.4)",
+          "oklch(85% 0.007 258.4)",
+          "oklch(95% 0.007 258.4)"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "Texto na Câmara",
+        "canonical": "#ECEFF2",
+        "tonalRamp": [
+          "oklch(15% 0.005 247.9)",
+          "oklch(25% 0.005 247.9)",
+          "oklch(35% 0.005 247.9)",
+          "oklch(45% 0.005 247.9)",
+          "oklch(55% 0.005 247.9)",
+          "oklch(70% 0.005 247.9)",
+          "oklch(85% 0.005 247.9)",
+          "oklch(95% 0.005 247.9)"
+        ]
+      },
+      "on-dark-2": {
+        "role": "neutral",
+        "displayName": "Texto Secundário na Câmara",
+        "canonical": "#A3ACB6",
+        "tonalRamp": [
+          "oklch(15% 0.018 250.9)",
+          "oklch(25% 0.018 250.9)",
+          "oklch(35% 0.018 250.9)",
+          "oklch(45% 0.018 250.9)",
+          "oklch(55% 0.018 250.9)",
+          "oklch(70% 0.018 250.9)",
+          "oklch(85% 0.018 250.9)",
+          "oklch(95% 0.018 250.9)"
+        ]
+      },
+      "on-dark-3": {
+        "role": "neutral",
+        "displayName": "Etapa Inativa",
+        "canonical": "#808994",
+        "tonalRamp": [
+          "oklch(15% 0.020 253.4)",
+          "oklch(25% 0.020 253.4)",
+          "oklch(35% 0.020 253.4)",
+          "oklch(45% 0.020 253.4)",
+          "oklch(55% 0.020 253.4)",
+          "oklch(70% 0.020 253.4)",
+          "oklch(85% 0.020 253.4)",
+          "oklch(95% 0.020 253.4)"
+        ]
+      },
+      "ok": {
+        "role": "neutral",
+        "displayName": "Confirmação",
+        "canonical": "#0F7A3D",
+        "tonalRamp": [
+          "oklch(15% 0.130 151.5)",
+          "oklch(25% 0.130 151.5)",
+          "oklch(35% 0.130 151.5)",
+          "oklch(45% 0.130 151.5)",
+          "oklch(55% 0.130 151.5)",
+          "oklch(70% 0.130 151.5)",
+          "oklch(85% 0.130 151.5)",
+          "oklch(95% 0.130 151.5)"
+        ]
+      },
+      "chamber-rule": {
+        "role": "neutral",
+        "displayName": "Fio da Câmara",
+        "canonical": "rgba(236, 239, 242, 0.14)"
+      },
+      "on-red-rule": {
+        "role": "neutral",
+        "displayName": "Fio sobre Vermelho",
+        "canonical": "rgba(255, 255, 255, 0.42)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Títulos dos fechamentos vermelhos e da 404, até 14ch."
+      },
+      "hero": {
+        "displayName": "Hero",
+        "purpose": "H1 dentro do painel do rótulo na home, em linhas .ln."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "H1 das páginas internas e nome do kit na ficha."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Títulos de seção (.head h2) e das etapas da câmara."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "Títulos de bloco da bula, missão e visão, nomes de kit."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Parágrafos de abertura, 46 a 58ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Fontes de dados, notas, descrições curtas."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nomes de campo em mono maiúsculo (.field__k), cabeçalhos de tabela, legendas de formulário."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "REF, determinações, contatos, datas, legendas de imagem."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Números grandes com fonte no ledger, células de produção e linha do tempo."
+      }
+    },
+    "shadows": [
+      {
+        "name": "label-plate",
+        "value": "0 30px 60px -30px rgba(60, 4, 2, 0.55)",
+        "purpose": "Só o painel do rótulo sobre o vermelho da home."
+      },
+      {
+        "name": "peek",
+        "value": "0 24px 50px -24px rgba(16,18,21,0.45)",
+        "purpose": "Prévia da foto do kit que segue o cursor na tabela."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Relógio único expo-out para quase toda transição."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Só a revelação de imagem data-r=plate."
+      },
+      {
+        "name": "d-1",
+        "value": "160ms",
+        "purpose": "Chips e pequenas trocas de cor."
+      },
+      {
+        "name": "d-2",
+        "value": "320ms",
+        "purpose": "Cor de botões, setas, sublinhado da navegação."
+      },
+      {
+        "name": "d-3",
+        "value": "700ms",
+        "purpose": "Chapa dos botões, fios de foco, folha do menu."
+      },
+      {
+        "name": "d-4",
+        "value": "1100ms",
+        "purpose": "Linhas-guia da caixa na entrada da home."
+      },
+      {
+        "name": "view-transition",
+        "value": "420ms var(--ease)",
+        "purpose": "Navegação entre páginas, com o mast fixo."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition/animation 0.01ms; sem Three.js; sem scroll suave",
+        "purpose": "prefers-reduced-motion: reduce; estados ocultos só existem sob html.js com no-preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "hero-stack",
+        "value": "1100px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "960px"
+      },
+      {
+        "name": "section-stack",
+        "value": "900px"
+      },
+      {
+        "name": "table-cards",
+        "value": "760px"
+      },
+      {
+        "name": "label-reflow",
+        "value": "640px"
+      },
+      {
+        "name": "form-single",
+        "value": "600px"
+      },
+      {
+        "name": "cells-single",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Tinta com chapa vermelha que entra da esquerda no hover.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Ver catálogo de kits<svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:54px;padding:0 20px 0 22px;border:1.5px solid #101215;border-radius:0;background:#101215;color:#FFFFFF;font-family:Archivo,'Arial Narrow',sans-serif;font-weight:600;font-size:1rem;line-height:1.2;text-decoration:none;cursor:pointer;transition:color 320ms cubic-bezier(0.16,1,0.3,1),border-color 320ms cubic-bezier(0.16,1,0.3,1)}.ds-btn::before{content:\"\";position:absolute;inset:0;z-index:-1;background:#DE1E18;transform:scaleX(0);transform-origin:left;transition:transform 700ms cubic-bezier(0.16,1,0.3,1)}.ds-btn:hover::before{transform:scaleX(1)}.ds-btn:hover{color:#FFFFFF;border-color:#DE1E18}.ds-btn:hover .ds-icon{transform:translateX(4px)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #101215;outline-offset:3px}.ds-icon{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter;transition:transform 320ms cubic-bezier(0.16,1,0.3,1)}"
+    },
+    {
+      "name": "Botão vermelho",
+      "kind": "button",
+      "refersTo": "button-red",
+      "description": "Vermelho da caixa com chapa de tinta; ação primária sobre branco.",
+      "html": "<a class=\"ds-btn-red\" href=\"#\">Falar com a equipe científica<svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn-red{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:54px;padding:0 20px 0 22px;border:1.5px solid #DE1E18;border-radius:0;background:#DE1E18;color:#FFFFFF;font-family:Archivo,'Arial Narrow',sans-serif;font-weight:600;font-size:1rem;line-height:1.2;text-decoration:none;cursor:pointer;transition:color 320ms cubic-bezier(0.16,1,0.3,1),border-color 320ms cubic-bezier(0.16,1,0.3,1)}.ds-btn-red::before{content:\"\";position:absolute;inset:0;z-index:-1;background:#101215;transform:scaleX(0);transform-origin:left;transition:transform 700ms cubic-bezier(0.16,1,0.3,1)}.ds-btn-red:hover::before{transform:scaleX(1)}.ds-btn-red:hover{color:#FFFFFF;border-color:#101215}.ds-btn-red:hover .ds-icon{transform:translateX(4px)}.ds-btn-red:active{transform:translateY(1px)}.ds-btn-red:focus-visible{outline:3px solid #101215;outline-offset:3px}.ds-icon{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter;transition:transform 320ms cubic-bezier(0.16,1,0.3,1)}"
+    },
+    {
+      "name": "Botão de contorno",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Transparente com fio de 1.5px; ação secundária.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\">Ver as duas linhas</a>",
+      "css": ".ds-btn-line{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:54px;padding:0 20px 0 22px;border:1.5px solid #101215;border-radius:0;background:transparent;color:#101215;font-family:Archivo,'Arial Narrow',sans-serif;font-weight:600;font-size:1rem;line-height:1.2;text-decoration:none;cursor:pointer;transition:color 320ms cubic-bezier(0.16,1,0.3,1),border-color 320ms cubic-bezier(0.16,1,0.3,1)}.ds-btn-line::before{content:\"\";position:absolute;inset:0;z-index:-1;background:#DE1E18;transform:scaleX(0);transform-origin:left;transition:transform 700ms cubic-bezier(0.16,1,0.3,1)}.ds-btn-line:hover::before{transform:scaleX(1)}.ds-btn-line:hover{color:#FFFFFF;border-color:#DE1E18}.ds-btn-line:hover .ds-icon{transform:translateX(4px)}.ds-btn-line:active{transform:translateY(1px)}.ds-btn-line:focus-visible{outline:3px solid #101215;outline-offset:3px}.ds-icon{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter;transition:transform 320ms cubic-bezier(0.16,1,0.3,1)}"
+    },
+    {
+      "name": "Célula de rótulo",
+      "kind": "card",
+      "refersTo": "field-key",
+      "description": "Linha de células regradas: nome do campo em mono e valor abaixo.",
+      "html": "<div class=\"ds-row\"><div class=\"ds-field\"><span class=\"ds-k\">Desde</span><span class=\"ds-v ds-code\">1994</span></div><div class=\"ds-field\"><span class=\"ds-k\">Certificação</span><span class=\"ds-v\">Boas Práticas de Fabricação ANVISA</span></div><div class=\"ds-field\"><span class=\"ds-k\">Fabricação</span><span class=\"ds-v\">100% nacional</span></div></div>",
+      "css": ".ds-row{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid #101215;background:#FFFFFF;color:#101215;font-family:Archivo,'Arial Narrow',sans-serif}.ds-field{display:grid;gap:2px;align-content:start;padding:12px 16px;border-left:1px solid #101215}.ds-field:first-child{border-left:0}.ds-k{font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.72rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:#5B626B}.ds-v{font-weight:600;line-height:1.35}.ds-code{font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-weight:500;font-size:0.92rem;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Símbolos REF e Σ",
+      "kind": "custom",
+      "refersTo": "sym-ref",
+      "description": "Símbolos ISO 15223 que precedem referência e determinações.",
+      "html": "<p class=\"ds-pres\"><span><span class=\"ds-sym\">REF</span> 16635-230</span><span><svg class=\"ds-sig\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M18 5H6l6 7-6 7h12\"/></svg> 2.300 determinações</span></p>",
+      "css": ".ds-pres{display:flex;flex-wrap:wrap;gap:18px;align-items:center;margin:0;font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.9rem;color:#101215}.ds-pres>span{display:inline-flex;align-items:center;gap:8px}.ds-sym{display:inline-grid;place-items:center;height:1.55em;min-width:2.3em;padding:0 0.3em;border:1.5px solid currentColor;font-size:0.7rem;font-weight:600;letter-spacing:0.04em;line-height:1}.ds-sig{width:1.1em;height:1.1em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter}"
+    },
+    {
+      "name": "Chip de filtro",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Régua de chips com fios compartilhados; selecionado inverte para tinta.",
+      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"checkbox\" checked><span>NeoMAP <small>3</small></span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>NeoLISA <small>6</small></span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>Automatizado <small>4</small></span></label></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap}.ds-chip{position:relative}.ds-chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}.ds-chip span{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 14px;border:1px solid #101215;margin:0 -1px -1px 0;border-radius:0;font-family:Archivo,'Arial Narrow',sans-serif;font-size:0.92rem;font-weight:500;background:#FFFFFF;color:#101215;transition:background-color 160ms cubic-bezier(0.16,1,0.3,1),color 160ms cubic-bezier(0.16,1,0.3,1)}.ds-chip span small{font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.72rem;color:#5B626B}.ds-chip:hover span{background:#F0F2F3}.ds-chip input:checked+span{background:#101215;color:#FFFFFF}.ds-chip:hover input:checked+span{background:#353A41}.ds-chip input:checked+span small{color:#A3ACB6}.ds-chip input:focus-visible+span{outline:3px solid #DE1E18;outline-offset:2px;position:relative;z-index:1}"
+    },
+    {
+      "name": "Campo de busca",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Caixa reta de 44px com rótulo mono; foco com contorno vermelho.",
+      "html": "<div class=\"ds-search\"><label for=\"ds-q\">Buscar kit, doença ou REF</label><input id=\"ds-q\" type=\"search\" placeholder=\"Ex.: PKU, 16635-230\"></div>",
+      "css": ".ds-search{min-width:min(340px,100%);font-family:Archivo,'Arial Narrow',sans-serif}.ds-search label{display:block;margin-bottom:8px;font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.72rem;letter-spacing:0.06em;text-transform:uppercase;color:#5B626B}.ds-search input{box-sizing:border-box;width:100%;min-height:44px;padding:0 40px 0 14px;border:1px solid #101215;border-radius:0;background:#FFFFFF;color:#101215;font:inherit;font-size:0.95rem;caret-color:#DE1E18}.ds-search input::placeholder{color:#5B626B}.ds-search input:focus{outline:3px solid #DE1E18;outline-offset:0}"
+    },
+    {
+      "name": "Navegação (mast)",
+      "kind": "nav",
+      "refersTo": "mast",
+      "description": "Faixa de 68px com sublinhado que se desenha; página atual sublinhada em vermelho.",
+      "html": "<nav class=\"ds-mast\"><a href=\"#\" aria-current=\"page\">Produtos</a><a href=\"#\">Empresa</a><a href=\"#\">Publicações</a><a href=\"#\">Contato</a></nav>",
+      "css": ".ds-mast{display:flex;align-items:stretch;height:68px;padding:0 24px;background:#FFFFFF;color:#101215;border-bottom:1px solid #101215;font-family:Archivo,'Arial Narrow',sans-serif}.ds-mast a{position:relative;display:flex;align-items:center;padding:0 16px;font-weight:500;font-size:0.95rem;color:inherit;text-decoration:none}.ds-mast a::after{content:\"\";position:absolute;left:16px;right:16px;bottom:18px;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 320ms cubic-bezier(0.16,1,0.3,1)}.ds-mast a:hover::after{transform:scaleX(1)}.ds-mast a[aria-current=page]::after{transform:scaleX(1);background:#DE1E18}.ds-mast a:focus-visible{outline:3px solid #101215;outline-offset:3px}"
+    },
+    {
+      "name": "Linha do índice de kits",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Tabela regrada de colunas fixas; a linha inteira é o link e a seta anda no hover.",
+      "html": "<table class=\"ds-kits\"><thead><tr><th>Kit</th><th><span class=\"ds-sym\">REF</span> Referência</th><th>Determinações</th><th></th></tr></thead><tbody><tr><td><a href=\"#\"><b>NeoMAP® 4Plex</b><small>TSH, T4, 17-OH, IRT</small></a></td><td class=\"m\">16635-230</td><td class=\"m\">2.300</td><td class=\"go\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></td></tr><tr><td><a href=\"#\"><b>NeoLISA® PKU</b><small>Fenilalanina</small></a></td><td class=\"m\">1570-200</td><td class=\"m\">2.000</td><td class=\"go\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></td></tr></tbody></table>",
+      "css": ".ds-kits{width:100%;border-collapse:collapse;border-top:1.5px solid #101215;background:#F0F2F3;font-family:Archivo,'Arial Narrow',sans-serif;color:#101215}.ds-kits th{text-align:left;font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.72rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:#5B626B;padding:12px 12px 12px 0;border-bottom:1px solid #101215;white-space:nowrap}.ds-sym{display:inline-grid;place-items:center;height:1.7em;min-width:2.3em;padding:0 0.3em;margin-right:8px;border:1.5px solid #101215;color:#101215;font-weight:600;line-height:1}.ds-kits td{padding:18px 12px 18px 0;border-bottom:1px solid #CDD3D8;vertical-align:middle}.ds-kits tr{transition:background-color 320ms cubic-bezier(0.16,1,0.3,1)}.ds-kits tbody tr:hover,.ds-kits tbody tr:focus-within{background:#FFFFFF}.ds-kits a{color:inherit;text-decoration:none}.ds-kits b{display:block;font-size:1.3rem;font-weight:700;font-stretch:108%;letter-spacing:-0.015em;line-height:1.15}.ds-kits small{display:block;margin-top:3px;font-size:0.9rem;color:#5B626B}.ds-kits .m{font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.86rem;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-kits .go{width:56px;text-align:right}.ds-kits .go .ds-icon{margin-left:auto}.ds-icon{width:1.1em;height:1.1em;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter;transition:transform 320ms cubic-bezier(0.16,1,0.3,1)}.ds-kits tbody tr:hover .ds-icon{transform:translateX(6px);color:#DE1E18}.ds-kits a:focus-visible{outline:3px solid #101215;outline-offset:3px}"
+    },
+    {
+      "name": "Barra do ledger",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Parte que fica em tinta, parte cortada tracejada em vermelho com hachura, escala mono abaixo.",
+      "html": "<div class=\"ds-bar\" style=\"--keep:15%;--cut:85%\"><span class=\"k\"></span><span class=\"c\">-85%</span></div><div class=\"ds-scale\"><span>0</span><span>Outras metodologias</span></div>",
+      "css": ".ds-bar{height:40px;display:grid;grid-template-columns:var(--keep) var(--cut)}.ds-bar .k{background:#101215}.ds-bar .c{border:1.5px dashed #DE1E18;border-left:0;display:flex;align-items:center;justify-content:flex-end;padding-right:10px;font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.72rem;color:#B3130E;background:repeating-linear-gradient(-45deg,transparent 0 6px,rgba(222,30,24,0.08) 6px 7px)}.ds-scale{display:flex;justify-content:space-between;margin-top:6px;font-family:'Martian Mono',ui-monospace,monospace;font-stretch:87.5%;font-size:0.72rem;color:#5B626B}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Caixa e a Bula",
+    "overview": "O site é a própria documentação do kit Intercientifica ampliada a escala de monumento: a caixa vermelha vira campo inteiro, o rótulo branco vira painel registrado sobre linhas-guia, e a bula (instruções de uso) vira o idioma de tabelas regradas, células com nome de campo e valor, e símbolos no estilo ISO 15223. REF e Σ (determinações) são tipografia de primeira linha, não ornamento. O sistema é impresso, plano e preciso: tinta preta, papel revestido frio, quinas retas e fios de 1px.\n\nA densidade é a de um rótulo técnico: muita informação em células pequenas, mas com hierarquia brutal entre o display expandido em Archivo e o mono condensado de códigos. Há exatamente um capítulo escuro, a câmara de leitura (`--chamber`), onde vive a única cor espectral do site, a das microesferas. Fora dela, todo campo de texto é acromático, e o vermelho da caixa é a única cor de marca.\n\nO movimento segue a gramática do registro gráfico: primeiro as linhas-guia se desenham, depois a chapa (vermelha ou de imagem) entra por recorte, depois o texto é impresso linha a linha, tudo num único relógio expo-out. O sistema recusa a página clínica branca de cartões arredondados com bebê de banco de imagens, e a página navy/neon de DNA de ficção científica.",
+    "keyCharacteristics": [
+      "Vermelho da caixa ocupando campos inteiros (topo da home, fechamentos, menu móvel, topos de página vermelhos, 404), nunca salpicado.",
+      "Células de rótulo: nome do campo em mono maiúsculo e valor logo abaixo, separados por fios de 1px.",
+      "Archivo variável com eixo de largura: expandido para display, normal para texto; Martian Mono condensado só para códigos, referências e medidas.",
+      "Quinas retas em tudo; os únicos círculos são as microesferas e os pontos de analito.",
+      "Uma câmara escura por página no máximo, e é lá que a cor espectral fica confinada.",
+      "Registro como movimento: fio, chapa, tipo, com o mesmo `--ease`."
+    ],
+    "rules": [
+      {
+        "name": "The Box Face Rule",
+        "body": "O vermelho entra como campo inteiro, de borda a borda, com texto branco por cima; ou como chapa de estado (hover, ativo, seleção). Nunca como fundo de cartão, ícone colorido ou destaque espalhado.",
+        "section": "colors"
+      },
+      {
+        "name": "The Spectral Confinement Rule",
+        "body": "As quatro cores `bead-*` só existem dentro da câmara escura e das microesferas. Texto, fios, botões e fundos permanecem acromáticos ou vermelhos.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red-Deep Text Rule",
+        "body": "Texto vermelho em tamanho de corpo ou menor sobre branco usa `red-deep`. O `box-red` sobre branco só aparece em tamanho de display (a palavra destacada no H1 do rótulo).",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Archivo carrega palavras; Martian Mono carrega apenas códigos, referências, medidas, datas, contatos e nomes de campo. Prosa nunca vai em mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Is Hierarchy Rule",
+        "body": "Títulos sobem de largura (106%, 108%, 116%, 125%) com tracking negativo; texto fica em 100%; o mono fica sempre condensado em 87.5%. Não use o eixo de largura em corpo de texto.",
+        "section": "typography"
+      },
+      {
+        "name": "The Registered Mark Rule",
+        "body": "Todo ® de marca (NeoMAP, NeoLISA, xMAP, Luminex, Hamilton, Opentrons) vai em `.reg`: 0.55em, elevado, peso 500.",
+        "section": "typography"
+      },
+      {
+        "name": "The Fixed Columns Rule",
+        "body": "O índice de kits é uma tabela regrada cujas colunas (Kit, Linha, REF, Σ Determinações) nunca se movem nem reordenam; filtrar esconde linhas, não reorganiza colunas.",
+        "section": "layout"
+      },
+      {
+        "name": "The Registered Grid Rule",
+        "body": "Elementos de destaque se alinham às 12 colunas e aos fios; nada flutua fora da grade com deslocamento decorativo.",
+        "section": "layout"
+      },
+      {
+        "name": "The Printed Flat Rule",
+        "body": "Cartões, botões, chips, células e tabelas não têm sombra. Se algo precisa se destacar, ganha um fio de 1px de tinta ou muda de chapa (fundo), nunca uma sombra.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Corner Rule",
+        "body": "Raio zero em todo elemento de interface. Arredondar um botão, chip ou campo quebra o rótulo.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Keyline Rule",
+        "body": "Células se dividem por fios de 1px que tocam as bordas; o espaço entre células é feito de padding, não de gaps com fundo à mostra.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Registration Order Rule",
+        "body": "Em toda entrada, o fio vem primeiro, depois a chapa, depois o tipo. O fio, uma vez desenhado, nunca se move.",
+        "section": "components"
+      },
+      {
+        "name": "The Content-First Motion Rule",
+        "body": "Nenhum conteúdo depende de animação para existir; o estado oculto é uma camada opcional acima do estado final.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** dar ao vermelho da caixa campos inteiros com texto branco: topo, fechamento, menu móvel, topos de página de destaque.",
+      "**Do** escrever códigos, REF, determinações, telefones, datas e nomes de campo em Martian Mono condensado (largura 87.5%) com números tabulares.",
+      "**Do** preceder toda referência de kit com o símbolo REF em caixa e toda contagem de determinações com Σ.",
+      "**Do** dividir informação em células e linhas regradas por fios de 1px, com fio de topo de 1.5px em tinta nas tabelas e listas.",
+      "**Do** dar a todo número uma linha de fonte em `ink-3` logo abaixo ou ao lado.",
+      "**Do** usar `red-deep` para qualquer texto vermelho em tamanho de corpo sobre branco.",
+      "**Do** rotular toda imagem científica abstrata como \"Representação ilustrativa\" e oferecer fallback estático para o WebGL.",
+      "**Do** usar `--ease` e as durações `--d-1` a `--d-4` em qualquer transição nova, e esconder estados iniciais só sob `html.js` com `prefers-reduced-motion: no-preference`."
+    ],
+    "donts": [
+      "**Don't** arredondar quinas de botões, chips, campos, imagens ou painéis; o raio do sistema é 0.",
+      "**Don't** levar as cores `bead-*` para fora da câmara escura e das microesferas.",
+      "**Don't** colocar sombra em cartões, botões, chips ou tabelas; as únicas sombras são a do rótulo sobre o vermelho e a da espiada.",
+      "**Don't** usar mono para prosa nem o eixo de largura expandido em texto corrido.",
+      "**Don't** pôr uma linha mono maiúscula solta acima de um título de seção; nomes de campo vivem dentro de células, junto do valor que nomeiam.",
+      "**Don't** adicionar gradientes decorativos ou brilhos; os únicos gradientes são funcionais (o véu escuro sob as legendas do canvas e a hachura da parte cortada da barra).",
+      "**Don't** reordenar, ocultar ou animar as colunas do índice de kits.",
+      "**Don't** usar fotografia de banco de imagens de bebês ou laboratórios genéricos, nem a estética navy/neon de DNA."
+    ]
+  }
+}

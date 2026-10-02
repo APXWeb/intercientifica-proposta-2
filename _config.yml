@@ -1,0 +1,6 @@
+# Arquivos internos que o GitHub Pages não deve publicar
+exclude:
+  - README.md
+  - PRODUCT.md
+  - DESIGN.md
+  - _tools
