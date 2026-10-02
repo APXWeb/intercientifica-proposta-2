@@ -192,7 +192,7 @@ components:
 
 O site é a própria documentação do kit Intercientifica ampliada a escala de monumento: a caixa vermelha vira campo inteiro, o rótulo branco vira painel registrado sobre linhas-guia, e a bula (instruções de uso) vira o idioma de tabelas regradas, células com nome de campo e valor, e símbolos no estilo ISO 15223. REF e Σ (determinações) são tipografia de primeira linha, não ornamento. O sistema é impresso, plano e preciso: tinta preta, papel revestido frio, quinas retas e fios de 1px.
 
-A densidade é a de um rótulo técnico: muita informação em células pequenas, mas com hierarquia brutal entre o display expandido em Archivo e o mono condensado de códigos. Há exatamente um capítulo escuro, a câmara de leitura (`--chamber`), onde vive a única cor espectral do site, a das microesferas. Fora dela, todo campo de texto é acromático, e o vermelho da caixa é a única cor de marca.
+A densidade é a de um rótulo técnico: muita informação em células pequenas, mas com hierarquia brutal entre o display expandido em Archivo e o mono condensado de códigos. Os capítulos escuros usam a câmara (`--chamber`): a exploração 3D do equipamento de automação, sempre acromática, e a leitura multiplex, o único lugar onde vive a cor espectral do site, a das microesferas. Fora dela, todo campo de texto é acromático, e o vermelho da caixa é a única cor de marca.
 
 O movimento segue a gramática do registro gráfico: primeiro as linhas-guia se desenham, depois a chapa (vermelha ou de imagem) entra por recorte, depois o texto é impresso linha a linha, tudo num único relógio expo-out. O sistema recusa a página clínica branca de cartões arredondados com bebê de banco de imagens, e a página navy/neon de DNA de ficção científica.
 
@@ -201,7 +201,7 @@ O movimento segue a gramática do registro gráfico: primeiro as linhas-guia se 
 - Células de rótulo: nome do campo em mono maiúsculo e valor logo abaixo, separados por fios de 1px.
 - Archivo variável com eixo de largura: expandido para display, normal para texto; Martian Mono condensado só para códigos, referências e medidas.
 - Quinas retas em tudo; os únicos círculos são as microesferas e os pontos de analito.
-- Uma câmara escura por página no máximo, e é lá que a cor espectral fica confinada.
+- Capítulos escuros nunca ficam colados: entre a automação e a leitura multiplex há uma seção clara. A cor espectral fica confinada à leitura multiplex.
 - Registro como movimento: fio, chapa, tipo, com o mesmo `--ease`.
 
 ## Colors
@@ -223,7 +223,7 @@ Paleta de impressão: um vermelho de caixa comprometido, tinta preta, papel frio
 - **Papel Revestido Frio** (`paper-2`): o único fundo de seção alternativo (`.lines`, contendo o índice de kits), hover de chips e fundo do mapa.
 - **Papel de Espera** (`paper-3`): fundo de imagens enquanto carregam (`.solution__img`, `.gallery figure`).
 - **Fio Suave** (`rule-soft`): divisórias entre linhas de tabelas e listas, abaixo de um fio forte de cabeçalho.
-- **Câmara** (`chamber`): fundo da câmara de leitura (`.chamber`, `.window`), com `chamber-rule` para fios, `on-dark` para texto, `on-dark-2` para texto secundário (8.4:1) e `on-dark-3` para etapas inativas (5.4:1).
+- **Câmara** (`chamber`): fundo dos capítulos escuros (`.auto`, `.mplex`, `.window`), com `chamber-rule` para fios, `on-dark` para texto, `on-dark-2` para texto secundário (8.4:1) e `on-dark-3` para etapas inativas (5.4:1).
 - **Fio sobre Vermelho** (`on-red-rule`): linhas-guia e divisórias sobre o campo vermelho.
 - **Confirmação** (`ok`): só a borda de `.form__status.is-ok`.
 
@@ -246,7 +246,7 @@ Paleta de impressão: um vermelho de caixa comprometido, tinta preta, papel frio
 - **Display** (800, `--t-display`, 0.95, largura 116%, -0.04em): títulos dos fechamentos vermelhos e da 404, limitados a 14ch.
 - **Hero** (800, até 4.4rem, 0.96, largura 106%, -0.035em): o H1 dentro do painel do rótulo na home, quebrado em linhas `.ln`.
 - **Headline** (800, `--t-h1`, 0.98, largura 116%): H1 das páginas internas (`.ptop h1`, até 18ch) e, num degrau próprio de até 5rem, o nome do kit em `.spec h1`.
-- **Title** (750, `--t-h2`, 1.04, largura 116%, -0.03em): títulos de seção em `.head h2`, `.split h2` e títulos das etapas da câmara.
+- **Title** (750, `--t-h2`, 1.04, largura 116%, -0.03em): títulos de seção em `.head h2`, `.split h2` e títulos dos cartões da automação.
 - **Subtitle** (700, `--t-h3`, largura 108%): títulos de bloco da bula (`.leaflet h2`), missão e visão, nomes de kit na tabela (até 1.4rem).
 - **Line Name** (800, até 6rem, 0.9, largura 125%, -0.05em): só os nomes das duas linhas, NeoMAP e NeoLISA, em `.line__name`.
 - **Lead** (400, `--t-lead`, 1.5): parágrafos de abertura, até 46 a 58ch.
@@ -271,7 +271,7 @@ Os cabeçalhos de seção (`.head`) colocam o título em 7 colunas e o lead nas 
 Pontos de quebra observados, todos `max-width`:
 - **1100px:** rótulo e janela da home empilham em 12 colunas; o número de telefone do cabeçalho some, fica o ícone.
 - **960px:** a navegação vira o botão Menu e a folha vermelha `.sheet`; ficha de produto, post e contato empilham.
-- **900px:** cabeçalhos de seção, câmara (palco sticky em 46svh acima das etapas), ledger, linhas, soluções, registro, filtros (deixam de ser sticky) e rodapé empilham; canais caem para 2 colunas.
+- **900px:** cabeçalhos de seção, automação 3D (palco sticky em 56svh abaixo do cabeçalho, textos abaixo), leitura multiplex (figura acima do texto), ledger, linhas, soluções, registro, filtros (deixam de ser sticky) e rodapé empilham; canais caem para 2 colunas.
 - **760px:** a tabela de kits vira grade de duas linhas por kit, com o nome de cada coluna repetido via `data-k`; índice de publicações, fatos, missão e visão, linha do tempo e galeria passam a uma coluna.
 - **640px:** linhas do rótulo se reorganizam e os botões do rótulo ocupam a largura toda.
 - **600px:** paginação e linhas de formulário passam a uma coluna; botão de envio em largura total.
@@ -348,8 +348,11 @@ Linhas de dados com fonte: número grande em mono (Figure) com unidade em `small
 ### Facts Rows (`.facts`)
 Lista de definição regrada em três colunas (fato, valor em mono 1.15rem, fonte em `ink-3`), fio de topo de 1.5px e divisórias `rule-soft`. Mesmo idioma do ledger, sem barras. Variações do mesmo padrão: `.reg-row` (programas de qualidade, com código mono à esquerda e procedência à direita) e `.index-list` (publicações, com data mono, título e tipo).
 
-### Story Stage (`.chamber`, `.story`, `.stage`)
-O capítulo assinatura, em fundo `chamber`. Etapas (`.step`, cada uma com altura de viewport) à esquerda em 5 colunas; palco sticky à direita em 7 colunas, emoldurado por um fio `chamber-rule`. Um único campo de microesferas Three.js se reorganiza por etapa (`data-step`: nuvem, disco, quatro conjuntos de analitos, leitura); na etapa de leitura aparecem eixos de fio e etiquetas mono. Etapas inativas esmaecem para `on-dark-2` e `on-dark-3`. Contador mono no canto superior e legenda mono na base, sempre com "Representação ilustrativa". Sem WebGL, com economia de dados ou com movimento reduzido, figuras SVG estáticas (`.plate-svg`) assumem cada etapa. Abaixo de 900px o palco fica sticky acima das etapas com 46svh. A janela `.window` do topo da home é a versão compacta da mesma câmara, com cantoneiras, legenda e botão de pausa (`.pause`).
+### Automação, de perto (`.auto`, `flex.js`)
+O capítulo assinatura, em fundo `chamber`. Palco sticky de altura de tela (`.auto__stage`) com uma cena Three.js de um Opentrons® Flex construído a partir das especificações publicadas pela Opentrons; os textos (`.auto__step`, um por pose, com `data-pose`) rolam por cima, à esquerda, em cartões de até 25rem, e o enquadramento da câmera é deslocado para a direita (`filmOffset`). O scroll controla a cena: cada `data-pose` é uma âncora, e entre duas âncoras câmera, porta, pórtico, deck, tela e luzes são interpolados com platôs de leitura (mesma lógica do NOIR), com amortecimento exponencial. Seis poses: apresentação, estrutura (cotas), deck (posições), pórtico (eixos), interface (tela, luz de status, câmera), composição final. Marcadores (`.pin`) projetados do 3D: ponto com fio de 34px e etiqueta mono em `on-dark`, ou etiqueta centrada (`.pin--tag`) para posições do deck e cotas; viram para dentro da tela perto da borda. Trilho de etapas (`.auto__rail`) com botões navegáveis por teclado e fundo da câmara. Cena acromática: alumínio, preto, policarbonato, material de laboratório cinza; piso que se dissolve no fundo, sombra de contato pré-calculada em todos os aparelhos. Sem WebGL, com economia de dados ou movimento reduzido, quadros estáticos da própria cena (`.auto__still`, `assets/img/flex/`) são trocados por etapa. Abaixo de 900px o palco fica sticky em 56svh abaixo do cabeçalho e os textos seguem embaixo. Etapas inativas esmaecem por cor (`on-dark-2`, `on-dark-3`), nunca por opacidade.
+
+### Leitura multiplex (`.mplex`, `multiplex.js`)
+A antiga etapa de leitura das microesferas, isolada. Texto em 5 colunas à esquerda, figura em 6 colunas à direita (`.mplex__stage`, proporção 5:4, fio `chamber-rule`). As microesferas em suspensão se organizam no mapa de classificação (eixos de fio "classificação por cor" × "sinal", quatro conjuntos `bead-*` com etiquetas mono TSH, T4, 17-OH, IRT) conforme a seção atravessa a tela; o tempo da animação só avança com o scroll. Sem WebGL, a figura SVG estática do mapa. Fica depois do ledger, separada do capítulo de automação por uma seção clara. A janela `.window` do topo da home mostra uma fotografia do laboratório da Intercientifica com link para o capítulo de automação.
 
 ### Close and Channels (`.close`, `.channels`)
 Todo percurso termina num campo vermelho: título Display de até 14ch, lead branco, ações (`.btn--white` e `.btn--line-light`) e uma régua de quatro canais (telefone, equipe científica, equipe comercial, endereço) em células `.field` divididas por fios `on-red-rule`, com valores em mono. Canais caem para 2 colunas em 900px e 1 em 520px.

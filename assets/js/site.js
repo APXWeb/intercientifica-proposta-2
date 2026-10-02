@@ -279,46 +279,4 @@
     });
   }
 
-  /* ---------------------------------------------------------- princípio: narrativa presa ao scroll */
-  const story = $('#story');
-  if (story) {
-    const steps = $$('.step', story);
-    const stage = $('#stage');
-    const plates = $$('.plate-svg', stage);
-    const countN = $('[data-count]', stage), countL = $('[data-count-label]', stage);
-    const labels = ['Coleta', 'Picotagem', 'Ensaio multiplex', 'Leitura'];
-    story.classList.add('is-live');
-    let active = -1;
-    function setStep(i) {
-      if (i === active) return;
-      active = i;
-      steps.forEach((s, k) => s.classList.toggle('is-active', k === i));
-      stage.dataset.step = i;
-      plates.forEach((pl, k) => pl.classList.toggle('is-on', k === i));
-      countN.textContent = i + 1;
-      countL.textContent = labels[i];
-    }
-    // progresso contínuo (0 a 3) lido pelo WebGL
-    function measure() {
-      const vh = innerHeight;
-      // no celular o palco fica preso no topo: a etapa só vira ativa quando o título aparece abaixo dele
-      const narrow = innerWidth < 900;
-      const centers = steps.map((s) => { const r = s.getBoundingClientRect(); return narrow ? r.top : r.top + r.height / 2; });
-      const stageBottom = narrow ? stage.getBoundingClientRect().bottom : 0;
-      const mid = narrow ? stageBottom + (vh - stageBottom) * 0.6 : vh * 0.5;
-      let prog = 0;
-      for (let i = 0; i < centers.length - 1; i++) {
-        const a = centers[i], b = centers[i + 1];
-        if (mid >= b) prog = i + 1;
-        else if (mid > a) { prog = i + (mid - a) / (b - a); break; }
-        else break;
-      }
-      window.__storyProgress = Math.max(0, Math.min(3, prog));
-      setStep(Math.max(0, Math.min(3, Math.round(window.__storyProgress))));
-    }
-    let t2 = false;
-    addEventListener('scroll', () => { if (!t2) { t2 = true; requestAnimationFrame(() => { t2 = false; measure(); }); } }, { passive: true });
-    addEventListener('resize', measure);
-    measure();
-  }
 })();

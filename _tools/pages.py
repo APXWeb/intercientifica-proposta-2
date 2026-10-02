@@ -5,6 +5,53 @@
 from build import *  # noqa: F401,F403  (moldura, dados e blocos)
 
 
+
+# ================================================================ AUTOMAÇÃO 3D (Opentrons Flex)
+AUTO_STEPS = [("intro", "Apresentação"), ("estrutura", "Estrutura"), ("deck", "Deck"), ("portico", "Pórtico"), ("interface", "Interface"), ("final", "Composição final")]
+IMPORTMAP = """<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js"}}</script>
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js" crossorigin>
+"""
+# Marcadores projetados sobre o modelo: (texto, ponto x,y,z em metros, poses, peça móvel)
+AUTO_PINS = [
+    ("87 cm", "0,-0.05,0.405", "estrutura", "tag"),
+    ("84 cm", "-0.505,0.42,0.345", "estrutura", "tag"),
+    ("69 cm", "0.505,-0.05,0", "estrutura", "tag"),
+    ("A1", "-0.19,0.16,-0.16", "deck", "tag"),
+    ("A3", "0.138,0.16,-0.16", "deck", "tag minor"),
+    ("D1", "-0.19,0.16,0.161", "deck", "tag minor"),
+    ("D3", "0.138,0.16,0.161", "deck", "tag"),
+    ("Coluna 4", "0.302,0.17,-0.053", "deck", "tag"),
+    ("Pórtico · X e Y", "-0.3,0.55,0", "portico", "carriage"),
+    ("Pipetas · eixo Z", "0,0.32,0.16", "portico", "carriage"),
+    ("Tela de 7″", "0.33,0.6,0.37", "interface", ""),
+    ("Luz de status", "0.12,0.81,0.35", "interface", ""),
+    ("Câmera 2 MP", "-0.385,0.81,0.35", "interface", ""),
+]
+
+
+def pins_html():
+    return "".join('<span class="pin%s" data-pin="%s" data-for="%s"%s><i></i><b>%s</b></span>' % (
+        (" pin--tag" if part.startswith("tag") else "") + (" pin--minor" if "minor" in part else ""), pt, poses, (' data-part="%s"' % part) if part == "carriage" else "", esc(label)) for label, pt, poses, part in AUTO_PINS)
+
+
+def rail_html():
+    return "".join('<button type="button" data-go="%s" aria-current="%s"><span>%02d</span>%s</button>' % (
+        k, "step" if i == 0 else "false", i + 1, esc(l)) for i, (k, l) in enumerate(AUTO_STEPS))
+
+
+def stills_html():
+    alts = {
+        "intro": "Opentrons Flex em vista de três quartos, com moldura preta e laterais em alumínio",
+        "estrutura": "Opentrons Flex com a porta frontal de policarbonato se abrindo e as cotas de 87, 84 e 69 centímetros",
+        "deck": "Vista de cima do deck do Opentrons Flex com as posições de trabalho destacadas",
+        "portico": "Pórtico do Opentrons Flex com o carro das pipetas sobre o deck",
+        "interface": "Detalhe da tela sensível ao toque e da luz de status do Opentrons Flex",
+        "final": "Opentrons Flex em composição final, de frente",
+    }
+    return "".join('<img data-still="%s" class="%s" src="assets/img/flex/%s-1600.webp" srcset="assets/img/flex/%s-800.webp 800w, assets/img/flex/%s-1600.webp 1600w" sizes="100vw" width="1600" height="1000" alt="%s" loading="%s" decoding="async">' % (
+        k, "is-on" if i == 0 else "", k, k, k, alts[k], "eager" if i == 0 else "lazy") for i, (k, _) in enumerate(AUTO_STEPS))
+
+
 # ================================================================ HOME
 def ledger_rows():
     data = [
@@ -37,8 +84,9 @@ def build_home():
     consumo = next((x for x in articles if x["title"].startswith("Consumo de Reagentes")), None)
     ctx = {
         "keys": keys, "factory": icon("factory", "sym-svg"), "arrow": icon("arrow"), "sigma": icon("sigma"), "down": icon("down"),
-        "phone": PHONE_LABEL, "hero_svg": hero_svg(), "analytes": analytes, "milestone": milestone["slug"],
-        "plates": "\n          ".join(formation_svg(i) for i in range(4)),
+        "phone": PHONE_LABEL, "analytes": analytes, "milestone": milestone["slug"],
+        "plate3": formation_svg(3).replace('class="plate-svg"', 'class="plate-svg is-on"'),
+        "stills": stills_html(), "pins": pins_html(), "rail": rail_html(),
         "c0": BEAD_COLORS[0], "c1": BEAD_COLORS[1], "c2": BEAD_COLORS[2], "c3": BEAD_COLORS[3],
         "ledger": ledger_rows(),
         "consumo": (' Estudo relacionado: <a href="publicacoes/%s/">%s</a>.' % (consumo["slug"], esc(consumo["title"]))) if consumo and consumo["ok"] else "",
@@ -52,7 +100,8 @@ def build_home():
     body = HOME_TEMPLATE % ctx
     write("index.html", page("index.html", "Intercientifica | Triagem neonatal e pré-natal, feita no Brasil",
                              "Kits NeoMAP® e NeoLISA®, reagentes, softwares e cartões de coleta para triagem neonatal e pré-natal. Fabricação nacional desde 1994, em São José dos Campos, SP.",
-                             body, home=True, scripts='<script type="module" src="assets/js/beads.js"></script>'))
+                             body, home=True, extra_head=IMPORTMAP,
+                             scripts='<script type="module" src="assets/js/flex.js"></script>\n<script type="module" src="assets/js/multiplex.js"></script>'))
 
 
 HOME_TEMPLATE = """
@@ -79,62 +128,69 @@ HOME_TEMPLATE = """
         <div class="field"><span class="field__k">Fabricação</span><span class="field__v">100%% nacional</span></div>
       </div>
     </div>
-    <figure class="window on-dark">
-      %(hero_svg)s
-      <canvas id="hero-gl" aria-hidden="true"></canvas>
+    <figure class="window window--photo on-dark">
+      <img src="assets/img/lab/99eb321d-1080.webp" srcset="assets/img/lab/99eb321d-540.webp 540w, assets/img/lab/99eb321d-1080.webp 1080w" sizes="(max-width: 1100px) 100vw, 40vw" width="1080" height="882" alt="Pipeta multicanal dispensando reagente em uma microplaca no laboratório da Intercientifica" fetchpriority="high">
       <span class="window__corner window__corner--tl" aria-hidden="true"></span>
       <span class="window__corner window__corner--tr" aria-hidden="true"></span>
-      <div class="window__top" aria-hidden="true"><span>NeoMAP® · xMAP®</span><span>Microesferas</span></div>
-      <figcaption class="window__cap"><span>Microesferas de um ensaio multiplex. Representação ilustrativa, fora de escala.</span><button class="pause" type="button" data-pause aria-pressed="false" hidden><svg viewBox="0 0 10 10" aria-hidden="true"><rect x="1" y="1" width="3" height="8"/><rect x="6" y="1" width="3" height="8"/></svg><span>Pausar animação</span></button></figcaption>
+      <figcaption class="window__cap"><span>Laboratório da Intercientifica</span><a class="window__go" href="#automacao-3d">Automação, de perto%(down)s</a></figcaption>
     </figure>
   </div>
   <div class="box__foot">
-    <div class="wrap"><a href="#principio">%(down)sDa amostra à informação</a><span>%(phone)s · ic@intercientifica.com.br</span></div>
+    <div class="wrap"><a href="#automacao-3d">%(down)sAutomação, de perto</a><span>%(phone)s · ic@intercientifica.com.br</span></div>
   </div>
 </section>
 
-<section class="chamber on-dark" id="principio" aria-labelledby="principio-title">
-  <div class="wrap">
-    <div class="head">
-      <h2 id="principio-title" data-r="print">Uma amostra. Vários resultados.</h2>
-      <p data-r="up">Como um kit NeoMAP® entra na rotina do laboratório de triagem, da coleta à leitura. Os fatos são da Intercientifica; a animação é um esquema ilustrativo.</p>
-    </div>
-    <div class="story" id="story">
-      <div class="story__steps">
-        <article class="step is-active" data-step="0">
-          <h3>Uma gota de sangue no papel-filtro.</h3>
-          <p>A triagem neonatal parte de amostras de sangue seco em cartões de papel-filtro. A Intercientifica fabrica <strong>cartões de coleta de sangue personalizados</strong> para laboratórios.</p>
-        </article>
-        <article class="step" data-step="1">
-          <h3>Um único picote de 3,00 mm.</h3>
-          <p>Segundo a Intercientifica, com o NeoMAP® 4PLEX <strong>um único picote de 3,00 mm é suficiente</strong> para obter os resultados dos quatro marcadores, o que reduz o consumo da amostra e o tempo de preparo da picotagem.</p>
-        </article>
-        <article class="step" data-step="2">
-          <h3>Quatro marcadores no mesmo orifício.</h3>
-          <p>Os kits NeoMAP® utilizam a plataforma xMAP®, da Luminex®: vários analitos de uma mesma amostra são analisados em um único ensaio, <strong>dentro do mesmo orifício, em suspensão</strong>. O NeoMAP® 4Plex detecta simultaneamente:</p>
-          <ul class="analytes">%(analytes)s</ul>
-          <p class="step__note">Para ensaios enzimáticos e colorimétricos, a linha NeoLISA® atende a triagem de fenilcetonúria, galactosemia, doença do xarope de bordo, deficiência de G6PD e de biotinidase. <a href="#linhas">Ver as duas linhas</a></p>
-        </article>
-        <article class="step" data-step="3">
-          <h3>Vinte e cinco leituras por marcador.</h3>
-          <p>De acordo com a Intercientifica, o ensaio multiplex realiza a leitura de <strong>25 análises para cada parâmetro</strong> em cada amostra de paciente, e o resultado final representa a média dessas 25 réplicas. Para os quatro parâmetros, o tempo de processamento é reduzido em 3 vezes.</p>
-          <p class="step__note">Fonte: <a href="publicacoes/%(milestone)s/">1.750.300 análises já realizadas com o Kit NeoMAP® 4PLEX</a>, publicação da Intercientifica.</p>
-        </article>
-      </div>
-      <div class="story__stage">
-        <div class="stage" id="stage" data-step="0">
-          %(plates)s
-          <canvas id="story-gl" aria-hidden="true"></canvas>
-          <div class="stage__axes" aria-hidden="true"><div class="ax-x"></div><div class="ax-y"></div><span class="lx">classificação por cor</span><span class="ly">sinal</span></div>
-          <div class="stage__tags" aria-hidden="true"><span data-tag="0" style="background:%(c0)s;left:32.5%%;top:66.7%%">TSH</span><span data-tag="1" style="background:%(c1)s;left:50%%;top:43.3%%">T4</span><span data-tag="2" style="background:%(c2)s;left:67.5%%;top:55%%">17-OH</span><span data-tag="3" style="background:%(c3)s;left:77.5%%;top:31.7%%">IRT</span></div>
-          <p class="stage__count" aria-hidden="true">Etapa <b data-count>1</b>/4 · <span data-count-label>Coleta</span></p>
-          <div class="stage__cap"><span>Representação ilustrativa, fora de escala. Não reproduz um procedimento validado.</span><button class="pause" type="button" data-pause aria-pressed="false" hidden><svg viewBox="0 0 10 10" aria-hidden="true"><rect x="1" y="1" width="3" height="8"/><rect x="6" y="1" width="3" height="8"/></svg><span>Pausar animação</span></button></div>
-        </div>
-      </div>
-    </div>
+<section class="auto on-dark" id="automacao-3d" aria-labelledby="auto3d-title">
+  <div class="auto__stage">
+    <div class="auto__still" aria-hidden="true">%(stills)s</div>
+    <canvas aria-hidden="true"></canvas>
+    <div class="auto__pins" aria-hidden="true">%(pins)s</div>
+    <nav class="auto__rail" aria-label="Etapas da exploração do equipamento">%(rail)s</nav>
   </div>
-  <div class="wrap"><p class="chamber__note">Precisa de ficha técnica, validação ou demonstração? A Intercientifica conta com assessores científicos e suporte técnico para treinamentos. <a href="contato/?assunto=%(kit_q)s" style="color:var(--on-dark)">Fale com a assessoria científica</a>.</p></div>
+  <div class="auto__steps">
+    <article class="auto__step" data-pose="intro">
+      <div class="auto__card">
+        <h2 id="auto3d-title">Automação, de perto.</h2>
+        <p>A Intercientifica oferece soluções de automação completa para as linhas NeoLISA® e NeoMAP®, com sistemas Hamilton® Robotics e Opentrons®. O equipamento mostrado é um Opentrons® Flex, como exemplo de plataforma.</p>
+        <p class="auto__note">Representação 3D ilustrativa, baseada nas especificações publicadas pela Opentrons.</p>
+        <p class="auto__hint">%(down)sRole para explorar o equipamento</p>
+      </div>
+    </article>
+    <article class="auto__step" data-pose="estrutura">
+      <div class="auto__card">
+        <h3>Uma estação fechada.</h3>
+        <p>Estrutura rígida de aço e alumínio usinado, com 87 × 69 × 84 cm. A porta frontal e as janelas laterais são de policarbonato, removíveis, e a porta se abre para dar acesso ao interior.</p>
+      </div>
+    </article>
+    <article class="auto__step" data-pose="deck">
+      <div class="auto__card">
+        <h3>Doze posições de trabalho.</h3>
+        <p>O deck de alumínio usinado tem 12 posições no padrão ANSI/SLAS, de A1, no fundo à esquerda, a D3, na frente à direita. A coluna 4 é uma área de apoio que só a garra alcança.</p>
+      </div>
+    </article>
+    <article class="auto__step" data-pose="portico">
+      <div class="auto__card">
+        <h3>Movimento nos três eixos.</h3>
+        <p>O pórtico se desloca nos eixos X e Y com precisão de 0,1 mm e leva as montagens das pipetas e da garra. Motores de passo controlam o eixo Z.</p>
+      </div>
+    </article>
+    <article class="auto__step" data-pose="interface">
+      <div class="auto__card">
+        <h3>Operação na própria máquina.</h3>
+        <p>Tela sensível ao toque de 7 polegadas na frente, à direita, faixa de luz de status no topo e câmera de 2 MP para fotos e vídeos.</p>
+      </div>
+    </article>
+    <article class="auto__step" data-pose="final">
+      <div class="auto__card">
+        <h3>Automação para a rotina do seu laboratório.</h3>
+        <p>A solução de automação para cada laboratório é definida com a equipe da Intercientifica, de acordo com os kits NeoLISA® e NeoMAP® e o fluxo de trabalho.</p>
+        <div class="auto__actions"><a class="btn btn--red" href="contato/?assunto=Equipamentos%%20e%%20automa%%C3%%A7%%C3%%A3o">Consultar automação%(arrow)s</a></div>
+        <p class="auto__src">Especificações do equipamento: <a href="https://docs.opentrons.com/flex/" target="_blank" rel="noopener">manual do Opentrons Flex</a>.</p>
+      </div>
+    </article>
+  </div>
 </section>
+
 
 <section class="section ledger" aria-labelledby="ledger-title">
   <div class="wrap">
@@ -151,6 +207,27 @@ HOME_TEMPLATE = """
       <div class="facts__row" data-r="up"><dt>Análises com o NeoMAP® 4PLEX</dt><dd class="facts__v">1.750.300</dd><dd class="facts__src">Marco divulgado em <a href="publicacoes/%(milestone)s/">publicação da empresa</a>.</dd></div>
       <div class="facts__row" data-r="up"><dt>Precisão dos kits NeoMAP®</dt><dd class="facts__v">50 a 100 vezes maior</dd><dd class="facts__src">que os métodos fluorimétricos ELISA tradicionais, segundo a ficha dos kits.</dd></div>
     </dl>
+  </div>
+</section>
+
+<section class="mplex on-dark" id="leitura" aria-labelledby="leitura-title">
+  <div class="wrap mplex__grid">
+    <div class="mplex__txt">
+      <h2 id="leitura-title" data-r="print">Uma leitura, quatro marcadores.</h2>
+      <p data-r="up">Nos kits NeoMAP®, na plataforma xMAP®, da Luminex®, os ensaios ocorrem <strong>dentro do mesmo orifício, em suspensão</strong>. Conjuntos de microesferas identificados por cor permitem ler vários analitos de uma mesma amostra.</p>
+      <p data-r="up">Segundo a Intercientifica, com o NeoMAP® 4PLEX um único picote de 3,00 mm basta para os quatro marcadores, e o ensaio realiza <strong>25 leituras para cada parâmetro</strong>; o resultado final é a média dessas 25 réplicas.</p>
+      <ul class="analytes" aria-label="Marcadores do NeoMAP® 4Plex">%(analytes)s</ul>
+      <p class="mplex__src">Fonte: <a href="publicacoes/%(milestone)s/">1.750.300 análises já realizadas com o Kit NeoMAP® 4PLEX</a>, publicação da Intercientifica.</p>
+    </div>
+    <figure class="mplex__fig">
+      <div class="stage mplex__stage" id="multiplex-stage" data-step="3">
+        %(plate3)s
+        <canvas aria-hidden="true"></canvas>
+        <div class="stage__axes" aria-hidden="true"><div class="ax-x"></div><div class="ax-y"></div><span class="lx">classificação por cor</span><span class="ly">sinal</span></div>
+        <div class="stage__tags" aria-hidden="true"><span data-tag="0" style="background:%(c0)s;left:32.5%%;top:66.7%%">TSH</span><span data-tag="1" style="background:%(c1)s;left:50%%;top:43.3%%">T4</span><span data-tag="2" style="background:%(c2)s;left:67.5%%;top:55%%">17-OH</span><span data-tag="3" style="background:%(c3)s;left:77.5%%;top:31.7%%">IRT</span></div>
+      </div>
+      <figcaption class="stage__cap mplex__cap">Mapa de classificação das microesferas. Representação ilustrativa, fora de escala; não reproduz um procedimento validado.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -189,11 +266,11 @@ HOME_TEMPLATE = """
     <div class="solution">
       <figure class="solution__img" data-r="plate">
         <img src="assets/img/automacao-hamilton-1400.webp" srcset="assets/img/automacao-hamilton-700.webp 700w, assets/img/automacao-hamilton-1400.webp 1400w" sizes="(max-width: 900px) 100vw, 66vw" width="1400" height="1145" alt="Sistema automatizado de pipetagem em operação no laboratório" loading="lazy">
-        <figcaption class="img-cap">Automação</figcaption>
+        <figcaption class="img-cap">Automação Hamilton®</figcaption>
       </figure>
       <div class="solution__txt">
-        <h3 data-r="print">Automação completa.</h3>
-        <p data-r="up">Soluções de automação completa para as linhas NeoLISA® e NeoMAP®, utilizando o sistema da Hamilton® Robotics e Opentrons®.</p>
+        <h3 data-r="print">NIMBUS e NeoMAP® 4PLEX.</h3>
+        <p data-r="up">O NeoMAP® 4PLEX e a automação utilizada com ele, o NIMBUS, da Hamilton® Robotics, estão registrados na ANVISA, segundo a Intercientifica.</p>
         <div class="field-row" data-r="up" style="--i:1">
           <div class="field"><span class="field__k">Placas ao mesmo tempo</span><span class="field__v code">até 8</span></div>
           <div class="field"><span class="field__k">Análises por rotina</span><span class="field__v code">mais de 3.000</span></div>
